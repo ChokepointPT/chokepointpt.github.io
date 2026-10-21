@@ -76,5 +76,17 @@
   "deck": "这款机器人既能服务你，也能守护你，续航和安全是普通人最先会问的两件事。",
   "tag": "发布",
   "body": "## 发生了什么\nUnitree 发布了一款新机器人 H2-X，中文名叫“功夫传奇守护者”。官方的定位很直接：性能强，既能服务你，也能守护你。\n\n## 关键数字\n最长续航约 8 小时。续航就是充满一次电后能用多久。对机器人来说，这个数字决定它能连续干多久的活，电撑不住，服务和守护都无从谈起。\n\n## 简单说\n这条发布的文案有点像功夫片的预告，强、能干，还要有分寸。官方还特意提醒，使用时要安全、友好一点，毕竟机器人会离人很近。\n\n## 为什么重要\n机器人能待多久、用得安不安全，决定了它能不能真正走进日常生活。这两点比参数表上的炫技更值得留意。"
+ },
+ {
+  "link": "/ChokepointPT/status/2112860129884291502",
+  "text": "牛P\n\nDeepSeek 开源了推理引擎，还公开了收入数字。\n\n单个集群每天处理 155 trillion tokens。\n每 GPU 每小时收入 $38。\n这是按非高峰定价算的。\n这些数字都是 DeepSeek 自己公开的。",
+  "src": "“A single cluster currently serves 155 trillion tokens/day, generating $38 in revenue per GPU-hour (at off-peak pricing).”\n\nHuge flex from DeepSeek. Not only did they open-source their inference engine, but they also open-sourced their revenue numbers.\n\nThey didn't disclose which",
+  "src_link": "/Yuchenj_UW/status/2112591074409742733",
+  "at": 1792580094.1235719,
+  "n": 8,
+  "title": "DeepSeek 每天处理 155 trillion tokens，每 GPU 每小时收入 $38",
+  "deck": "AI 服务到底赚不赚钱，外界以前大多只能猜，DeepSeek 直接公开了自己的收入数字，让大家可以拿真实数据来算账。",
+  "tag": "商业",
+  "body": "## 发生了什么\nDeepSeek 把自己的推理引擎开源了，还一起公开了几组收入数字。推理引擎简单说，就是让模型真正跑起来、回答你问题的那套软件。\n\n## 关键数字\n单个集群目前每天处理 155 trillion tokens。每 GPU 每小时收入 $38，这是按非高峰定价算的。这些数字都是 DeepSeek 自己公开的。\n\n## 简单说\ntoken 可以理解成模型读写的文字碎片。一个集群每天要处理这么多碎片，每块 GPU 每小时换来 $38，这就是它的账。注意这个 $38 是按非高峰价格算的，不能直接套用到所有时段。\n\n## 为什么重要\n很多 AI 公司只讲模型多强，很少把账本摊开。DeepSeek 不只放出代码，还把收入一起放出来，外界终于有了一个真实的参照，可以拿来比一比。"
  }
 ]
