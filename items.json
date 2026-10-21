@@ -88,5 +88,17 @@
   "deck": "AI 服务到底赚不赚钱，外界以前大多只能猜，DeepSeek 直接公开了自己的收入数字，让大家可以拿真实数据来算账。",
   "tag": "商业",
   "body": "## 发生了什么\nDeepSeek 把自己的推理引擎开源了，还一起公开了几组收入数字。推理引擎简单说，就是让模型真正跑起来、回答你问题的那套软件。\n\n## 关键数字\n单个集群目前每天处理 155 trillion tokens。每 GPU 每小时收入 $38，这是按非高峰定价算的。这些数字都是 DeepSeek 自己公开的。\n\n## 简单说\ntoken 可以理解成模型读写的文字碎片。一个集群每天要处理这么多碎片，每块 GPU 每小时换来 $38，这就是它的账。注意这个 $38 是按非高峰价格算的，不能直接套用到所有时段。\n\n## 为什么重要\n很多 AI 公司只讲模型多强，很少把账本摊开。DeepSeek 不只放出代码，还把收入一起放出来，外界终于有了一个真实的参照，可以拿来比一比。"
+ },
+ {
+  "link": "/ChokepointPT/status/2112876497786839308",
+  "text": "牛P\n\nMistral AI 和 NVIDIA 宣布新合作，把 AI 带进工业工程。\n\n更快的仿真\n开源的物理 AI 基准和数据集\nCAE 和 EDA 的 agentic AI 评测\n\n说白了，工程师做仿真、做芯片设计，也要用上 AI 了。\n\n$NVDA",
+  "src": "Today we’re announcing a new collaboration with \n@nvidia\n to bring AI to industrial engineering: \n\n- faster simulation\n- open benchmarks and supporting datasets for physics AI\n- evaluations for agentic AI in CAE and EDA\n\nMore here: \nhttps://\nmistral.ai/news/mistral-n\nvidia-ai-for-industrial-engineering\n…",
+  "src_link": "/MistralAI/status/2112870261829603589",
+  "at": 1792584014.9688609,
+  "n": 9,
+  "title": "Mistral 和 NVIDIA 合作，让 AI 走进工业工程的设计室",
+  "deck": "工程师做仿真和芯片设计很费时间，这次合作想让 AI 直接帮上忙，影响的是真正造东西的人。",
+  "tag": "发布",
+  "body": "## 发生了什么\nMistral AI 和 NVIDIA 宣布新合作，目标是把 AI 带进工业工程。双方提到三件事：更快的仿真，开源的物理 AI 基准和数据集，以及评测 CAE 和 EDA 里 agentic AI 的方法。\n\n## 简单说\n仿真就是在电脑里先把东西造一遍，看看受力会不会断、气流走得顺不顺。EDA 是设计芯片用的软件。CAE 是计算机辅助工程。agentic AI 指的是能自己拆任务、调用工具去完成事情的 AI。以前这些活靠工程师一步步手动调，现在想让 AI 来跑、来判断。\n\n## 为什么重要\n开源的基准和数据集，意味着大家能用同一把尺子比较 AI 在物理问题上做得好不好，不再只听厂商自己说。设计变快，通常就意味着试错变便宜。\n\n## 投资角度\nNVIDIA（$NVDA）是这次合作的一方。这类公告说明它的 AI 生态在往工业软件延伸，但公告本身不等于收入，后续有没有真正落地更值得看。"
  }
 ]
