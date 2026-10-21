@@ -100,5 +100,17 @@
   "deck": "工程师做仿真和芯片设计很费时间，这次合作想让 AI 直接帮上忙，影响的是真正造东西的人。",
   "tag": "发布",
   "body": "## 发生了什么\nMistral AI 和 NVIDIA 宣布新合作，目标是把 AI 带进工业工程。双方提到三件事：更快的仿真，开源的物理 AI 基准和数据集，以及评测 CAE 和 EDA 里 agentic AI 的方法。\n\n## 简单说\n仿真就是在电脑里先把东西造一遍，看看受力会不会断、气流走得顺不顺。EDA 是设计芯片用的软件。CAE 是计算机辅助工程。agentic AI 指的是能自己拆任务、调用工具去完成事情的 AI。以前这些活靠工程师一步步手动调，现在想让 AI 来跑、来判断。\n\n## 为什么重要\n开源的基准和数据集，意味着大家能用同一把尺子比较 AI 在物理问题上做得好不好，不再只听厂商自己说。设计变快，通常就意味着试错变便宜。\n\n## 投资角度\nNVIDIA（$NVDA）是这次合作的一方。这类公告说明它的 AI 生态在往工业软件延伸，但公告本身不等于收入，后续有没有真正落地更值得看。"
+ },
+ {
+  "link": "/ChokepointPT/status/2112897029680894370",
+  "text": "这才是真正的…算力快上线了\n\nNVIDIA 在 GTC Berlin 发布了 DSX POD。\n\nAI 工厂在交付前就集成好、测好了。\n场地准备好以后，最快 14 天就能部署。\nAI 建设者可以更快用上算力。\n\n简单讲，机房不用等太久，建好就能干活。\n\n$NVDA",
+  "src": "AI builders need computing capacity they can put to work sooner.\n\nWe introduced DSX POD at NVIDIA GTC Berlin: AI factories integrated and tested before delivery, enabling deployment at prepared sites in as little as 14 days.",
+  "src_link": "/nvidia/status/2112882448530800716",
+  "at": 1792588906.3948119,
+  "n": 10,
+  "title": "机房建好后最快 14 天就能用上算力",
+  "deck": "NVIDIA 把 DSX POD 在交付前就装好、测好，AI 建设者可以更快开始用算力。",
+  "tag": "发布",
+  "body": "## 发生了什么\nNVIDIA 在 GTC Berlin 发布了 DSX POD。它是 AI 工厂，送到现场之前就已经集成好、测试好了。\n\n## 关键数字\n场地准备好以后，最快 14 天就能部署上线。\n\n## 简单说\n建 AI 机房，设备运到现场后通常还要拼装和调试。DSX POD 的思路是把这些活提前做完，到了现场接上就能干活。机房不用等太久，建好就能用。\n\n## 为什么重要\n算力什么时候能上线，直接决定 AI 建设者什么时候能开始工作。部署越快，等待的时间越短。\n\n## 投资角度\n$NVDA 是这次发布的主角。可以关注 DSX POD 在真实场地里的部署速度，是否真像宣传的那样快。"
  }
 ]
