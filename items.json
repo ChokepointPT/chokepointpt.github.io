@@ -128,5 +128,19 @@
   "body": "## 发生了什么\nNVIDIA 在 GTC Berlin 发布了 DSX POD。它是 AI 工厂，送到现场之前就已经集成好、测试好了。\n\n## 关键数字\n场地准备好以后，最快 14 天就能部署上线。\n\n## 简单说\n建 AI 机房，设备运到现场后通常还要拼装和调试。DSX POD 的思路是把这些活提前做完，到了现场接上就能干活。机房不用等太久，建好就能用。\n\n## 为什么重要\n算力什么时候能上线，直接决定 AI 建设者什么时候能开始工作。部署越快，等待的时间越短。\n\n## 投资角度\n$NVDA 是这次发布的主角。可以关注 DSX POD 在真实场地里的部署速度，是否真像宣传的那样快。",
   "cover": "https://pbs.twimg.com/amplify_video_thumb/2112881993369235456/img/iT-O6fmGpAeNWnu6.jpg",
   "page_url": ""
+ },
+ {
+  "link": "/ChokepointPT/status/2113196270156460476",
+  "text": "兄弟们，牛P了\n\nJensen 在 GTC Berlin 2026 压轴演示了 Nous Research 的 Hermes Agent\n\n他的原话是，造 agent 最好的办法就是让 agent 帮你造\n\n他用一句提示词，就把一个定制版 Hermes 装好配置完了\n\n老黄这场压轴演示，就是 agent 自己把自己搭起来\n\n$NVDA",
+  "src": "Jensen closed his GTC Berlin 2026 keynote with this Hermes Agent demo as the finale. \n\nHe introduced it by saying the way to build an agent is to ask an agent to build it for you, so he installed and set up a customized Hermes in one prompt. \n\nThen he used Hermes, running on",
+  "src_link": "/NousResearch/status/2113010017645244623",
+  "at": 1792660250.811233,
+  "n": 11,
+  "cover": "https://pbs.twimg.com/amplify_video_thumb/2113007811546230785/img/qNPId_VjirdnTdfB.jpg",
+  "page_url": "",
+  "title": "老黄一句提示词，让 agent 自己把自己装好",
+  "deck": "装一个 AI 助手以前要自己一步步配置，这次演示说明这件事可以交给 AI 去做，对想上手 agent 的人是个信号。",
+  "tag": "发布",
+  "body": "## 发生了什么\n\nJensen 在 GTC Berlin 2026 的主题演讲收尾时，压轴演示了 Nous Research 的 Hermes Agent。\n\n他开场就说了一句很直接的话：造 agent 最好的办法，就是让 agent 帮你造。\n\n## 怎么做到的\n\n- 他只用了一句提示词\n- 这句话让 AI 把一个定制版 Hermes 装好，并且配置完成\n- 装好之后，他接着用 Hermes 做演示，原文写到一半就断了，所以它具体跑在什么上面，我们不知道\n\n先说个背景。agent 就是能自己动手完成任务的 AI，不只是陪你聊天。Hermes 是 Nous Research 做的一款 agent。\n\n## 能用来干什么\n\n- 能确定的是：装配 agent 这一步，本身可以交给 agent 去做，省掉手动配置\n- Hermes 具体能被用来做什么，原文没有展开，这里不乱猜\n\n## 简单说\n\n老黄当着观众的面，让 AI 自己给自己搭好了工具。它的意思是，上手 agent 这件事，可能越来越不需要自己动手配置。\n\n## 投资角度\n\n文中提到的相关标的是 $NVDA。这是一场演示的收尾，不是财务数据，也不构成投资建议。"
  }
 ]
