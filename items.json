@@ -328,6 +328,25 @@
   "body": "AI 的订单越签越大，这些订单什么时候变成现金，是这一轮最该对的账。我把三家公司最新一季的原文都翻了一遍，表格在最后。\n\n## 甲骨文\n\n截至 8 月 31 日的季度，收入 $19.3B，同比涨 30%。云基础设施收入 $7.4B，涨 121%。未履约合同（RPO）$664B，一年里多了 $209B，这个季度又签了超过 $30B 的 AI 云合同。\n现金这边，经营现金流 $23.1B，资本开支 $28.5B，自由现金流负 $5.4B。往前推四个季度加起来，自由现金流是负 $28.7B（按季报里四个季度的数字加的）。\n\n## CoreWeave\n\n二季度收入 $2.575B，同比涨 112%。收入积压约 $104B，公司说这还不含三季度初新签的超过 $25B。\n同一个季度净亏损 $626M，利息支出 $640M，光利息就比全部亏损还多。现金流量表里买设备花了 $6.4B。\n\n## 英伟达\n\n截至 7 月 26 日的季度，收入 $96.2B，一年前是 $46.7B。按毛利算，毛利率约 75%。\n10-Q 里有两处值得对。供应承诺从上个季度的 $119B 涨到 $279B，一个季度多了 $160B。应收账款里，五个直接客户分别占 22%、14%、13%、11% 和 10%，加起来七成。\n\n## 我的结论\n\n订单不缺，缺的是现金回来的速度。甲骨文要看 RPO 每个季度能转成多少收入，CoreWeave 要看收入涨得能不能追上利息。英伟达一个季度把供应承诺加了 $160B，说明它对明年的需求很有把握，需求一旦掉头，这笔承诺也得它自己扛。\n这三家下一次季报都在 11 月到 12 月，到时候再对一次。\n\n想自己对一遍，只要 3 步：\n1. 打开 sec.gov，搜公司名，点进 Filings\n2. 找最新一份 8-K，打开 Exhibit 99.1 那份新闻稿\n3. 按 Ctrl+F 搜 remaining performance obligations 和 free cash flow\n\n数字全部来自公司季报、8-K 和 10-Q。不喊单，买不买你自己定。",
   "cover": "/covers/long_2115388489197920371.png",
   "page_url": "",
-  "en_tries": 1
+  "en_tries": 2
+ },
+ {
+  "link": "/ChokepointPT/status/2115399703906930959",
+  "text": "牛P了\nOppenheimer 首次覆盖 AeroVironment，评级 Outperform，目标价 $205\n\n按 $117.51 的收盘价算，约涨 74%\n\n据 stockanalysis.com 报道，原始研报未见\n\n10月已经是第四家新覆盖的券商\n前面有 Redburn Neutral $165\nBarclays Equal Weight $237\nMacquarie Outperform $210\n\n这几周里 Citizens 把目标价下调到 $170\n\n$AVAV 这个月的目标价，从 $165 到 $237 都有",
+  "src": "Oppenheimer initiated AeroVironment at Outperform with a $205 target on Oct 22, 2026 (stockanalysis.com news feed, reported; not seen in a firm note). Against the $117.51 close that implies about +74% (our arithmetic). It is the fourth new initiation in October after Redburn Neutral $165, Barclays Equal Weight $237 and Macquarie Outperform $210, and it lands in the same weeks as the Citizens cut to $170 (our count). $AVAV",
+  "src_link": "",
+  "at": 1793185591.249459,
+  "n": 20,
+  "cover": "",
+  "page_url": "",
+  "title": "Oppenheimer 首次给 AeroVironment 定 $205 目标价，比收盘价高约 74%",
+  "deck": "同一个月里，券商给 $AVAV 的目标价从 $165 到 $237 都有，分歧这么大，值得单独看一眼。",
+  "tag": "商业",
+  "body": "## 发生了什么\n- 10月22日，Oppenheimer 首次覆盖 AeroVironment，评级是 Outperform，也就是看好，目标价 $205。\n- \"首次覆盖\"的意思是这家券商第一次公开研究这家公司并给出评级。\n- 这条消息来自 stockanalysis.com 的新闻转述，原始研报没有看到，读的时候要记住这一点。\n\n## 关键数字\n- $117.51：这是收盘价。按它算，$205 的目标价大约高出 74%（这个百分比是我们算的）。\n- 这是10月里第四家新覆盖的券商。前三家是 Redburn 给 Neutral $165，Barclays 给 Equal Weight $237，Macquarie 给 Outperform $210。\n- 这几周 Citizens 把目标价下调到 $170。\n\n## 投资角度\n- $AVAV 这个月的目标价从 $165 到 $237 都有，看多和看平的意见同时存在。\n- 这说明市场对它没有统一看法。这只是整理公开信息，不是买卖建议。\n\n## 简单说\n目标价是券商认为股票未来可能到的价位，不是保证。一家喊到 $205，另一家给 $165，中间差了一大截。看这类新闻，先看是谁给的、哪天给的，再看有没有原始报告。\n\n## 为什么重要\n- 券商的评级和目标价会影响很多人怎么看这只股票，所以分歧本身就是新闻。\n- 新覆盖加上别家下调，说明这个月对这只股票的讨论很多。",
+  "en": {
+   "title": "Oppenheimer Sets First $205 Price Target on AeroVironment, About 74% Above Close",
+   "deck": "In the same month, brokers set $AVAV price targets anywhere from $165 to $237, a gap wide enough to take a closer look.",
+   "body": "## What happened\n- On October 22, Oppenheimer began covering AeroVironment with an Outperform rating, which means a bullish view, and a $205 price target.\n- \"Initiating coverage\" means this brokerage published its first public research on the company and gave it a rating.\n- This news comes from a news summary on stockanalysis.com. We did not see the original research report, so keep that in mind when you read this.\n\n## Key numbers\n- $117.51: this is the closing price. Based on it, the $205 target is about 74% higher (we calculated this percentage).\n- This is the fourth brokerage to newly cover the stock in October. The first three were Redburn with Neutral at $165, Barclays with Equal Weight at $237, and Macquarie with Outperform at $210.\n- In recent weeks, Citizens cut its price target to $170.\n\n## Investment angle\n- $AVAV's price targets this month range from $165 to $237, and both bullish and neutral views exist at the same time.\n- This shows the market does not share one view on the stock. This is a summary of public information, not a buy or sell recommendation.\n\n## In short\nA price target is the price a brokerage thinks a stock could reach in the future. It is not a guarantee. One firm says $205, another says $165, and the gap between them is large. When you read news like this, first check who issued the target and on what day, then see whether the original report is available.\n\n## Why it matters\n- Brokerage ratings and price targets shape how many people view a stock, so the disagreement is news in itself.\n- New coverage plus cuts from other firms show that this stock has drawn a lot of discussion this month."
+  }
  }
 ]
