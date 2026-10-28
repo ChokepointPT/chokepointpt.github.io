@@ -11,7 +11,12 @@
   "tag": "商业",
   "body": "## 发生了什么\n根据 stockanalysis.com 的数据，$KTOS 多了一家给出目标价的分析师，但平均目标价从 $99.57 降到了 $98.33。\n\n## 关键数字\n10 月 16 日收盘价是 $40.42，平均目标价 $98.33 比它高约 143%。两个数字放在一起看，差距很醒目。\n\n## 简单说\n分析师给股票定的目标价，可以理解成他们认为这只股票大概值多少钱。平均值就是把所有人的数字加起来再除以人数。现在人数多了一位，平均值却往下掉，原文的说法是卖方没有跟着股价一起把目标价往上调。\n\n## 投资角度\n$KTOS 的平均目标价比收盘价高出约 143%，看起来空间很大。但目标价只是分析师的估计，不是保证，而且它会随分析师的判断一起改。",
   "cover": "",
-  "page_url": ""
+  "page_url": "",
+  "en": {
+   "title": "$KTOS Gains One More Analyst, but Average Price Target Falls from $99.57 to $98.33",
+   "deck": "An analyst's price target shows their view of the stock, and this time more analysts issued one while the average target went down, so it is worth a closer look.",
+   "body": "## What happened\nAccording to stockanalysis.com, $KTOS gained one more analyst with a price target, but the average price target fell from $99.57 to $98.33.\n\n## Key numbers\nThe closing price on October 16 was $40.42. The average target of $98.33 is about 143% above that. Side by side, the gap stands out.\n\n## In short\nA price target is a rough sense of what an analyst thinks a stock is worth. The average is all the targets added together and divided by the number of analysts. There is one more analyst now, yet the average went down. The source says the sell-side did not raise their targets along with the share price.\n\n## For investors\n$KTOS's average target is about 143% above the closing price, so the room for upside looks large. But a target is only an analyst's estimate, not a guarantee. It can change as the analysts' views change."
+  }
  },
  {
   "link": "/ChokepointPT/status/2112409034040938812",
@@ -25,7 +30,12 @@
   "tag": "深度",
   "body": "## 发生了什么\n10月5日，$KTOS 公布了一批太空和网络安全奖项，标题写的是\"more than $100 million\"。公司是靠新闻稿宣布的。到10月16日，SEC 的 EDGAR 最近十条记录里没有一份 8-K。\n\n## 关键数字\n这十条记录从8月26日排到10月16日，全部是 Form 3、Form 4、Form 144，外加一份 POSASR 和一份 424B3。前三种多是内部人持股和交易的报表，后两种是和证券发行有关的文件，都不是讲合同的。\n\n## 简单说\n8-K 可以理解成上市公司出了大事要交给监管机构的公告，里面通常会写清合同编号、钱什么时候执行、进展到哪一步。没有它，投资人手上只剩标题上那个数字，没法对账。这不代表合同是假的，新闻稿可能是真的，只是申报里找不到能核对的部分。\n\n## 为什么重要\n判断一个订单值不值得算进预期，先看它查不查得到。查得到的才算进预期，查不到的只是一条新闻。等公司把金额、期间和里程碑写进申报，再把这个数字算进去也不迟。\n\n## 投资角度\n$KTOS 这笔\"more than $100 million\"的消息，目前只有新闻稿支撑。在申报里能查到之前，它更适合当作待验证的线索，而不是已经确定的收入。",
   "cover": "",
-  "page_url": ""
+  "page_url": "",
+  "en": {
+   "title": "$KTOS Announced Awards \"More Than $100 Million,\" but No Matching Filing Shows Up",
+   "deck": "A number only counts toward expectations once it can be matched to official filings. Otherwise, it is just news.",
+   "body": "## What Happened\nOn October 5, $KTOS announced a batch of space and cybersecurity awards. The headline said \"more than $100 million.\" The company made the announcement through a press release. As of October 16, none of the latest ten records on the SEC's EDGAR system was an 8-K.\n\n## Key Numbers\nThese ten records run from August 26 to October 16. All of them are Form 3, Form 4, or Form 144 filings, plus one POSASR and one 424B3. Most of the first three are reports on insider holdings and trades. The last two relate to securities offerings. None of them describe contracts.\n\n## In short\nAn 8-K is a notice that a public company files with regulators when something important happens. It usually spells out the contract number, when the money takes effect, and how far the work has progressed. Without one, investors only have the number in the headline, and they cannot check it. This does not mean the contract is fake. The press release may be accurate. The filings just do not show anything that can be checked.\n\n## Why It Matters\nBefore you count an order in your expectations, check whether you can find it in filings. Orders you can find can count toward expectations. Orders you cannot find are just news. Once the company puts the amount, the time period, and the milestones in its filings, it is still not too late to count the number.\n\n## Investor Angle\nFor now, the \"more than $100 million\" news for $KTOS is backed only by the press release. Until it shows up in a filing, treat it as a lead to verify, not as confirmed revenue."
+  }
  },
  {
   "link": "/ChokepointPT/status/2112356060770009520",
@@ -39,7 +49,12 @@
   "tag": "商业",
   "body": "## 发生了什么\n$AVAV 一周内签了三份 MOU。MOU 是谅解备忘录，意思是双方先把合作意向写下来。其中澳洲那份是10月8日签的，但到10月13日才对外发布。\n\n## 关键数字\n三份 MOU，一周之内签完。\n签约日是10月8日，公开发布是10月13日。\n新闻稿里一个金额都没有，三份都没有约束力。\n10月14日股价跌了约5%。\n\n## 简单说\nMOU 有点像两家公司先说好\"以后可能一起做事\"，但没写清楚做多少、钱怎么付，也没有人必须照做。它更像一个方向信号，不是已经到手的生意。\n\n## 为什么重要\n很多人看到\"签了几份合作\"就会联想到营收增长，但没有金额的合作很难换算成实际收入。股价在发布后第二天下跌约5%，说明市场没有把这些消息当成利多。\n\n## 投资角度\n$AVAV 这次的消息缺少金额和约束力，比较适合先当作待验证的信息。接下来可以观察的是，这些意向有没有变成正式合同，以及合同里有没有具体金额。这只是分析角度，不是买卖建议。",
   "cover": "",
-  "page_url": ""
+  "page_url": "",
+  "en": {
+   "title": "$AVAV signs three MOUs in one week, but the press release has no amounts, and the stock fell about 5% on October 14",
+   "deck": "A cooperation memorandum sounds exciting, but it has no amount and no binding force, so it is still far from a real order.",
+   "body": "## What happened\n$AVAV signed three MOUs within one week. An MOU is a memorandum of understanding. It means the two sides first put their cooperation intent in writing. The Australia one was signed on October 8, but it was not made public until October 13.\n\n## Key numbers\n- Three MOUs, all signed within one week.\n- Signed on October 8, made public on October 13.\n- The press release has no amounts, and none of the three is binding.\n- The stock fell about 5% on October 14.\n\n## In short\nAn MOU is a bit like two companies agreeing that they may work together later. But it does not say how much work will be done or how the money will be paid, and no one has to follow through. It is more of a direction signal than business already in hand.\n\n## Why it matters\nMany people see \"signed several cooperation deals\" and think of revenue growth. But a deal with no amount is hard to turn into actual revenue. The stock fell about 5% on the day after the release, which suggests the market did not treat this news as good news.\n\n## Investment angle\nThe news on $AVAV has no amounts and no binding force, so for now it is better treated as information that still needs to be verified. Next, watch whether these intentions become formal contracts, and whether those contracts include specific amounts. This is an analysis angle, not a buy or sell recommendation."
+  }
  },
  {
   "link": "/ChokepointPT/status/2112310349970202645",
@@ -62,7 +77,12 @@
   "tag": "商业",
   "body": "## 发生了什么\n据 Bloomberg 2026年9月4日引述知情人士报道，DeepSeek 计划在内蒙古的数据中心部署至少 160,000 颗华为昇腾 950DT，目标是吉瓦级的 AI 基础设施。\n\n## 关键数字\n第一个数字是 160,000，是 DeepSeek 一家的订单，主要用来跑自家模型做推理，目前没有计划拿来训练。第二个数字是 low hundreds of thousands，这是知情人士给的量级说法，指高端内存等零部件短缺后，华为 950DT 今年整体产量被压到的水平。第三个数字是一年以上，填满这张订单可能要这么久。\n\n## 简单说\n推理可以理解成模型训练好之后，实际回答问题、干活的那部分算力。这一单会吃掉华为今年产能里很大的一块。订单一天就能签完，零部件产能却不会跟着一天变出来，所以卡点落在内存上，短期内解不开。\n\n## 为什么重要\n看 AI 芯片大单能不能按时交付，别只看订单有多大，要看最紧的那个零件。这里最紧的是内存，所以先盯住交付时间这个数字。",
   "cover": "",
-  "page_url": ""
+  "page_url": "",
+  "en": {
+   "title": "DeepSeek Orders 160,000 Huawei Ascend 950DT, but Delivery Could Take More Than a Year",
+   "deck": "The order is not the problem. Capacity for high-end memory and similar parts is the bottleneck, so this large order can only be delivered slowly.",
+   "body": "## What happened\nAccording to Bloomberg, citing people familiar with the matter, DeepSeek plans to deploy at least 160,000 Huawei Ascend 950DT chips at its data center in Inner Mongolia. Reported on September 4, 2026. The goal is gigawatt-scale AI infrastructure.\n\n## Key numbers\nThe first number is 160,000. It is DeepSeek's order alone. Most of it will run the company's own models for inference. There are no plans to use it for training at this time.\n\nThe second number is low hundreds of thousands. This is a rough size given by the sources. It is the level that Huawei's 950DT output for this year has been pushed down to, after shortages of parts such as high-end memory.\n\nThe third number is more than one year. That is how long it could take to fill this order.\n\n## In short\nInference is the computing that runs after a model is trained. It answers questions and does the work. This order will take up a large part of Huawei's capacity this year.\n\nThe order can be signed in a day. But parts capacity does not grow in a day. So the bottleneck is memory, and it cannot be fixed in the short term.\n\n## Why it matters\nWhen judging whether a big AI chip order will ship on time, do not look only at how large the order is. Look at the tightest part. Here, the tightest part is memory. So watch the delivery time figure first."
+  }
  },
  {
   "link": "/ChokepointPT/status/2112217431519154643",
@@ -85,7 +105,8 @@
   "tag": "发布",
   "body": "## 发生了什么\nUnitree 发布了一款新机器人 H2-X，中文名叫“功夫传奇守护者”。官方的定位很直接：性能强，既能服务你，也能守护你。\n\n## 关键数字\n最长续航约 8 小时。续航就是充满一次电后能用多久。对机器人来说，这个数字决定它能连续干多久的活，电撑不住，服务和守护都无从谈起。\n\n## 简单说\n这条发布的文案有点像功夫片的预告，强、能干，还要有分寸。官方还特意提醒，使用时要安全、友好一点，毕竟机器人会离人很近。\n\n## 为什么重要\n机器人能待多久、用得安不安全，决定了它能不能真正走进日常生活。这两点比参数表上的炫技更值得留意。",
   "cover": "https://pbs.twimg.com/amplify_video_thumb/2112814220194828288/img/RL8lXu0dfq4qop9M.jpg",
-  "page_url": ""
+  "page_url": "",
+  "en_tries": 1
  },
  {
   "link": "/ChokepointPT/status/2112860129884291502",
@@ -99,7 +120,12 @@
   "tag": "商业",
   "body": "## 发生了什么\nDeepSeek 把自己的推理引擎开源了，还一起公开了几组收入数字。推理引擎简单说，就是让模型真正跑起来、回答你问题的那套软件。\n\n## 关键数字\n单个集群目前每天处理 155 trillion tokens。每 GPU 每小时收入 $38，这是按非高峰定价算的。这些数字都是 DeepSeek 自己公开的。\n\n## 简单说\ntoken 可以理解成模型读写的文字碎片。一个集群每天要处理这么多碎片，每块 GPU 每小时换来 $38，这就是它的账。注意这个 $38 是按非高峰价格算的，不能直接套用到所有时段。\n\n## 为什么重要\n很多 AI 公司只讲模型多强，很少把账本摊开。DeepSeek 不只放出代码，还把收入一起放出来，外界终于有了一个真实的参照，可以拿来比一比。",
   "cover": "https://pbs.twimg.com/media/HVFtIWAaQAAy6-k.jpg",
-  "page_url": ""
+  "page_url": "",
+  "en": {
+   "title": "DeepSeek Processes 155 trillion tokens a Day and Earns $38 per GPU Hour",
+   "deck": "Until now, outsiders could mostly only guess whether AI services make money. DeepSeek has published its own revenue figures, so anyone can run the numbers with real data.",
+   "body": "## What happened\nDeepSeek open-sourced its inference engine. It also released several sets of revenue figures at the same time. Put simply, an inference engine is the software that makes a model actually run and answer your questions.\n\n## Key numbers\nA single cluster currently processes 155 trillion tokens per day. Revenue is $38 per GPU per hour, calculated at off-peak pricing. DeepSeek itself published these figures.\n\n## In short\nA token is a small piece of text that a model reads and writes. A cluster handles this many pieces every day, and each GPU brings in $38 per hour. That is the math behind the business. The $38 figure uses off-peak prices, so it should not be applied directly to every time period.\n\n## Why it matters\nMany AI companies talk about how strong their models are. Few open their books. DeepSeek released its revenue figures along with its code. Outside observers now have a real benchmark to compare against."
+  }
  },
  {
   "link": "/ChokepointPT/status/2112876497786839308",
@@ -113,7 +139,12 @@
   "tag": "发布",
   "body": "## 发生了什么\nMistral AI 和 NVIDIA 宣布新合作，目标是把 AI 带进工业工程。双方提到三件事：更快的仿真，开源的物理 AI 基准和数据集，以及评测 CAE 和 EDA 里 agentic AI 的方法。\n\n## 简单说\n仿真就是在电脑里先把东西造一遍，看看受力会不会断、气流走得顺不顺。EDA 是设计芯片用的软件。CAE 是计算机辅助工程。agentic AI 指的是能自己拆任务、调用工具去完成事情的 AI。以前这些活靠工程师一步步手动调，现在想让 AI 来跑、来判断。\n\n## 为什么重要\n开源的基准和数据集，意味着大家能用同一把尺子比较 AI 在物理问题上做得好不好，不再只听厂商自己说。设计变快，通常就意味着试错变便宜。\n\n## 投资角度\nNVIDIA（$NVDA）是这次合作的一方。这类公告说明它的 AI 生态在往工业软件延伸，但公告本身不等于收入，后续有没有真正落地更值得看。",
   "cover": "https://pbs.twimg.com/media/HVJjJIKXUAAWj0d.jpg",
-  "page_url": "https://mistral.ai/news/mistral-nvidia-ai-for-industrial-engineering"
+  "page_url": "https://mistral.ai/news/mistral-nvidia-ai-for-industrial-engineering",
+  "en": {
+   "title": "Mistral and NVIDIA Team Up to Bring AI Into Industrial Engineering Design Rooms",
+   "deck": "Engineers spend a lot of time on simulation and chip design. This partnership aims to have AI help directly, which affects the people who actually build things.",
+   "body": "## What Happened\nMistral AI and NVIDIA announced a new partnership. The goal is to bring AI into industrial engineering. The two companies named three areas: faster simulation, open physical AI benchmarks and datasets, and methods for evaluating agentic AI in CAE and EDA.\n\n## In short\nSimulation means building something on a computer first. Engineers use it to check whether a part will break under load or whether air flows smoothly past it. EDA is the software used to design chips. CAE stands for computer-aided engineering. Agentic AI is AI that can split a task into steps by itself and use tools to finish it. Until now, engineers did this work by hand, one step at a time. Now the goal is for AI to run the work and make the calls.\n\n## Why It Matters\nOpen benchmarks and datasets let people use the same yardstick to compare how well AI handles physics problems. They no longer have to rely only on what vendors say. Faster design usually means cheaper trial and error.\n\n## Investment Angle\nNVIDIA ($NVDA) is one of the parties to this partnership. Announcements like this show its AI ecosystem reaching into industrial software. But an announcement is not revenue. Whether the work actually gets deployed later is worth watching more closely."
+  }
  },
  {
   "link": "/ChokepointPT/status/2112897029680894370",
@@ -127,7 +158,12 @@
   "tag": "发布",
   "body": "## 发生了什么\nNVIDIA 在 GTC Berlin 发布了 DSX POD。它是 AI 工厂，送到现场之前就已经集成好、测试好了。\n\n## 关键数字\n场地准备好以后，最快 14 天就能部署上线。\n\n## 简单说\n建 AI 机房，设备运到现场后通常还要拼装和调试。DSX POD 的思路是把这些活提前做完，到了现场接上就能干活。机房不用等太久，建好就能用。\n\n## 为什么重要\n算力什么时候能上线，直接决定 AI 建设者什么时候能开始工作。部署越快，等待的时间越短。\n\n## 投资角度\n$NVDA 是这次发布的主角。可以关注 DSX POD 在真实场地里的部署速度，是否真像宣传的那样快。",
   "cover": "https://pbs.twimg.com/amplify_video_thumb/2112881993369235456/img/iT-O6fmGpAeNWnu6.jpg",
-  "page_url": ""
+  "page_url": "",
+  "en": {
+   "title": "Compute can go live as soon as 14 days after the data center is built",
+   "deck": "Nvidia pre-builds and tests DSX POD before delivery, so AI builders can start using compute faster.",
+   "body": "## What happened\nNvidia announced DSX POD at GTC Berlin. It is an AI factory. It comes fully integrated and tested before it is shipped to the site.\n\n## Key numbers\nOnce the site is ready, it can go live in as little as 14 days.\n\n## In short\nBuilding an AI data center usually means the equipment still has to be assembled and debugged after it arrives. DSX POD aims to do that work ahead of time. Once it is connected on site, it can start working. The data center does not have to wait long. Once it is built, it can be used.\n\n## Why it matters\nWhen compute goes live decides when AI builders can start working. The faster the deployment, the shorter the wait.\n\n## Investor angle\n$NVDA is the main focus of this launch. Watch how fast DSX POD goes live at real sites. Check whether it is really as fast as the marketing says."
+  }
  },
  {
   "link": "/ChokepointPT/status/2113196270156460476",
@@ -141,7 +177,12 @@
   "title": "老黄一句提示词，让 agent 自己把自己装好",
   "deck": "装一个 AI 助手以前要自己一步步配置，这次演示说明这件事可以交给 AI 去做，对想上手 agent 的人是个信号。",
   "tag": "发布",
-  "body": "## 发生了什么\n\nJensen 在 GTC Berlin 2026 的主题演讲收尾时，压轴演示了 Nous Research 的 Hermes Agent。\n\n他开场就说了一句很直接的话：造 agent 最好的办法，就是让 agent 帮你造。\n\n## 怎么做到的\n\n- 他只用了一句提示词\n- 这句话让 AI 把一个定制版 Hermes 装好，并且配置完成\n- 装好之后，他接着用 Hermes 做演示，原文写到一半就断了，所以它具体跑在什么上面，我们不知道\n\n先说个背景。agent 就是能自己动手完成任务的 AI，不只是陪你聊天。Hermes 是 Nous Research 做的一款 agent。\n\n## 能用来干什么\n\n- 能确定的是：装配 agent 这一步，本身可以交给 agent 去做，省掉手动配置\n- Hermes 具体能被用来做什么，原文没有展开，这里不乱猜\n\n## 简单说\n\n老黄当着观众的面，让 AI 自己给自己搭好了工具。它的意思是，上手 agent 这件事，可能越来越不需要自己动手配置。\n\n## 投资角度\n\n文中提到的相关标的是 $NVDA。这是一场演示的收尾，不是财务数据，也不构成投资建议。"
+  "body": "## 发生了什么\n\nJensen 在 GTC Berlin 2026 的主题演讲收尾时，压轴演示了 Nous Research 的 Hermes Agent。\n\n他开场就说了一句很直接的话：造 agent 最好的办法，就是让 agent 帮你造。\n\n## 怎么做到的\n\n- 他只用了一句提示词\n- 这句话让 AI 把一个定制版 Hermes 装好，并且配置完成\n- 装好之后，他接着用 Hermes 做演示，原文写到一半就断了，所以它具体跑在什么上面，我们不知道\n\n先说个背景。agent 就是能自己动手完成任务的 AI，不只是陪你聊天。Hermes 是 Nous Research 做的一款 agent。\n\n## 能用来干什么\n\n- 能确定的是：装配 agent 这一步，本身可以交给 agent 去做，省掉手动配置\n- Hermes 具体能被用来做什么，原文没有展开，这里不乱猜\n\n## 简单说\n\n老黄当着观众的面，让 AI 自己给自己搭好了工具。它的意思是，上手 agent 这件事，可能越来越不需要自己动手配置。\n\n## 投资角度\n\n文中提到的相关标的是 $NVDA。这是一场演示的收尾，不是财务数据，也不构成投资建议。",
+  "en": {
+   "title": "One Prompt From Jensen Lets the Agent Set Itself Up",
+   "deck": "Setting up an AI assistant used to mean configuring it step by step by hand. This demo shows that the setup can be handed to AI, which is a signal for people who want to start using agents.",
+   "body": "## What happened\n\nJensen closed his GTC Berlin 2026 keynote with a demo of Nous Research's Hermes Agent.\n\nHe opened with a direct line: the best way to build an agent is to let an agent build it for you.\n\n## How it was done\n\n- He used just one prompt\n- The prompt had the AI install a customized version of Hermes and finish its setup\n- After the install, he went on to demo Hermes. The source article breaks off partway through, so we do not know what it ran on.\n\nFirst, some background. An agent is AI that can carry out tasks on its own, not just chat with you. Hermes is an agent built by Nous Research.\n\n## What it can be used for\n\n- What we can confirm: setting up an agent can itself be handed to an agent, which saves manual configuration.\n- The source does not say what Hermes can be used for, so we will not guess.\n\n## In short\n\nOn stage, Jensen had AI set up its own tools in front of the audience. The point is that getting started with agents may need less and less manual setup.\n\n## Investment angle\n\nThe related ticker in the piece is $NVDA. This was the closing part of a demo, not financial data, and it is not investment advice."
+  }
  },
  {
   "link": "/ChokepointPT/status/2113228049269628990",
@@ -155,7 +196,12 @@
   "title": "AeroVironment 的 LOCUST 激光武器拿到首个海外商业订单，金额 $52 million",
   "deck": "激光武器第一次有海外买家下单，说明这类装备开始走向商业化，不只停留在研发阶段。",
   "tag": "商业",
-  "body": "## 发生了什么\n\nAeroVironment 公司在 2026 年 9 月 9 日的幻灯片上列出了一批订单。其中 LOCUST 激光武器拿到了第一笔海外商业订单，金额是 $52 million。LOCUST 是一套激光武器系统，简单说就是用光束去打击目标。\n\n## 关键数字\n\n- $52 million：LOCUST 的海外商业订单\n- $43 million：把 PANTHER 相控阵天线集成到 SkyRange 平台上，用于高超音速遥测\n- $1,257 million：幻灯片上七笔订单的合计\n- 其中 $500 million 是 Titan 的合同上限，实际只订了 $80 million\n- 扣掉没订的部分，实际确定的订单约 $837 million（这是我们自己算的）\n\n## 能用来干什么\n\n相控阵天线不用机械转动，靠电子方式把信号波束指向需要的方向。SkyRange 平台装上它，就能做高超音速遥测，也就是收集以超高速飞行的目标的数据。这笔 $43 million 的活，就是把天线整合进这个平台。\n\n## 为什么重要\n\n这一单说明 LOCUST 开始有了海外商业客户，是从单一项目走向更大市场的第一步。对激光武器来说，有人愿意付钱买，比演示效果更能说明问题。\n\n## 投资角度\n\n这些订单都属于 $AVAV。看订单时别只看总数，$1,257 million 里有 $500 million 只是上限，真正下单的部分要分开看。上限不等于收入，读财报时要分清\"已订\"和\"可能会订\"。这是研究线索，不是买卖建议。"
+  "body": "## 发生了什么\n\nAeroVironment 公司在 2026 年 9 月 9 日的幻灯片上列出了一批订单。其中 LOCUST 激光武器拿到了第一笔海外商业订单，金额是 $52 million。LOCUST 是一套激光武器系统，简单说就是用光束去打击目标。\n\n## 关键数字\n\n- $52 million：LOCUST 的海外商业订单\n- $43 million：把 PANTHER 相控阵天线集成到 SkyRange 平台上，用于高超音速遥测\n- $1,257 million：幻灯片上七笔订单的合计\n- 其中 $500 million 是 Titan 的合同上限，实际只订了 $80 million\n- 扣掉没订的部分，实际确定的订单约 $837 million（这是我们自己算的）\n\n## 能用来干什么\n\n相控阵天线不用机械转动，靠电子方式把信号波束指向需要的方向。SkyRange 平台装上它，就能做高超音速遥测，也就是收集以超高速飞行的目标的数据。这笔 $43 million 的活，就是把天线整合进这个平台。\n\n## 为什么重要\n\n这一单说明 LOCUST 开始有了海外商业客户，是从单一项目走向更大市场的第一步。对激光武器来说，有人愿意付钱买，比演示效果更能说明问题。\n\n## 投资角度\n\n这些订单都属于 $AVAV。看订单时别只看总数，$1,257 million 里有 $500 million 只是上限，真正下单的部分要分开看。上限不等于收入，读财报时要分清\"已订\"和\"可能会订\"。这是研究线索，不是买卖建议。",
+  "en": {
+   "title": "AeroVironment's LOCUST laser weapon wins its first overseas commercial order, worth $52 million",
+   "deck": "A foreign buyer has placed an order for a laser weapon for the first time. This shows that this type of equipment is moving toward commercial sale, not just staying in development.",
+   "body": "## What happened\n\nOn a slide dated September 9, 2026, AeroVironment listed a batch of orders. One of them, the LOCUST laser weapon, won its first overseas commercial order. The order is worth $52 million. LOCUST is a laser weapon system. In short, it uses a beam of light to hit targets.\n\n## Key numbers\n\n- $52 million: LOCUST's overseas commercial order\n- $43 million: Integrating the PANTHER phased array antenna into the SkyRange platform, for hypersonic telemetry\n- $1,257 million: Total of the seven orders on the slide\n- Of that total, $500 million is the contract ceiling for Titan, but only $80 million was actually ordered\n- Removing the part that was not ordered, the confirmed orders come to about $837 million (this is our own calculation)\n\n## What it is used for\n\nA phased array antenna does not need to turn physically. It uses electronics to point the signal beam where it is needed. When the SkyRange platform carries one, it can do hypersonic telemetry. That means collecting data on targets flying at very high speed. The $43 million job is about building this antenna into the platform.\n\n## Why it matters\n\nThis order shows that LOCUST has started to win overseas commercial customers. It is a first step from a single project toward a larger market. For laser weapons, a buyer willing to pay says more than a demo does.\n\n## Investment angle\n\nAll of these orders belong to $AVAV. Do not look only at the total when you review orders. Within the $1,257 million, $500 million is only a ceiling, so the part that was actually ordered should be viewed separately. A ceiling is not the same as revenue. When you read financial reports, separate \"ordered\" from \"might be ordered.\" This is a research lead, not a buy or sell recommendation."
+  }
  },
  {
   "link": "/ChokepointPT/status/2113265605167947903",
