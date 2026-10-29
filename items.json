@@ -348,5 +348,25 @@
    "deck": "In the same month, brokers set $AVAV price targets anywhere from $165 to $237, a gap wide enough to take a closer look.",
    "body": "## What happened\n- On October 22, Oppenheimer began covering AeroVironment with an Outperform rating, which means a bullish view, and a $205 price target.\n- \"Initiating coverage\" means this brokerage published its first public research on the company and gave it a rating.\n- This news comes from a news summary on stockanalysis.com. We did not see the original research report, so keep that in mind when you read this.\n\n## Key numbers\n- $117.51: this is the closing price. Based on it, the $205 target is about 74% higher (we calculated this percentage).\n- This is the fourth brokerage to newly cover the stock in October. The first three were Redburn with Neutral at $165, Barclays with Equal Weight at $237, and Macquarie with Outperform at $210.\n- In recent weeks, Citizens cut its price target to $170.\n\n## Investment angle\n- $AVAV's price targets this month range from $165 to $237, and both bullish and neutral views exist at the same time.\n- This shows the market does not share one view on the stock. This is a summary of public information, not a buy or sell recommendation.\n\n## In short\nA price target is the price a brokerage thinks a stock could reach in the future. It is not a guarantee. One firm says $205, another says $165, and the gap between them is large. When you read news like this, first check who issued the target and on what day, then see whether the original report is available.\n\n## Why it matters\n- Brokerage ratings and price targets shape how many people view a stock, so the disagreement is news in itself.\n- New coverage plus cuts from other firms show that this stock has drawn a lot of discussion this month."
   }
+ },
+ {
+  "link": "/ChokepointPT/status/2115047194281623980",
+  "text": "代号看不出是哪家的模型。arena 是盲测，语气像不像，要看你问的是什么。一两轮就下结论太早了。",
+  "src": "Open 新模型在Arena出现了。。。\n\n测试代号：fe-pichu....\n\n这看着中里中气的..... https://t.co/vkWj77XDgW",
+  "src_link": "/leo114119/status/2115043743728357622",
+  "at": 1793251020.459842,
+  "why": "daily pick, 4941 views",
+  "n": 21,
+  "cover": "https://pbs.twimg.com/media/HVnu4bbWgAAV0VO.jpg",
+  "page_url": "",
+  "title": "新模型悄悄上了 Arena，语气像不像，别只看一两轮",
+  "deck": "代号看不出是哪家的模型，Arena 又是盲测，所以判断它的风格，得看你拿它问了什么。",
+  "tag": "研究",
+  "body": "## 发生了什么\n\nArena 上冒出一个新模型，测试代号叫 fe-pichu。代号里看不出是哪家做的。有人读了它的回答，觉得语气中里中气的，有点端着、有分量的感觉。\n\n## 能用来干什么\n\nArena 是盲测。你不知道背后是哪家的模型，只看两个回答哪个更好。这样比较干净，没有品牌光环影响判断，看到的主要是回答本身。\n\n## 简单说\n\n语气像不像，要看你问的是什么。闲聊和写代码，它的风格可能完全不一样。一两轮对话太少，就下结论，太早了。\n\n## 为什么重要\n\n这类匿名测试是提前观察新模型的一个窗口。先凭印象记下来，多问几种问题再验证，比听别人一句话靠谱得多。",
+  "en": {
+   "title": "A new model quietly joined Arena. Does its tone match? Don't judge it from one or two rounds.",
+   "deck": "The codename does not show which company made the model, and Arena is a blind test, so judging its style depends on what you ask it.",
+   "body": "## What happened\n\nA new model showed up on Arena. Its test codename is fe-pichu. The codename does not show which company built it. Someone who read its answers said the tone sounded strong and full. It also seemed a bit stiff and formal, with a sense of weight.\n\n## What it can be used for\n\nArena is a blind test. You do not know which company's model is behind each answer. You only see which of two answers is better. This makes the test cleaner, because no brand name shapes your judgment. What you see is mainly the answer itself.\n\n## In short\n\nWhether the tone matches depends on what you ask. Chat and coding may bring out very different styles. One or two rounds is too few. Drawing a conclusion now would be too early.\n\n## Why it matters\n\nAnonymous tests like this are a window for seeing new models early. Write down your first impression. Then ask several kinds of questions to check it. That is far more reliable than taking someone else's word for it."
+  }
  }
 ]
