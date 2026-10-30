@@ -384,5 +384,24 @@
   "tag": "深度",
   "body": "## 发生了什么\n\n一条帖子说 Tibo 明天会有好消息，并列出了 5 种可能：发布 GPT-6.1 Astra，发布 GPT-6.1 Luna，取消 Plus 用户的 5 小时限制，每人 3 张重置卡，和土豆姐官宣。帖子最后还说，如果以上都没有，那 Tibo 明天请闭麦。\n\n## 关键数字\n\n- 5 种可能，其中两种是模型名：GPT-6.1 Astra 和 GPT-6.1 Luna\n- 5 小时：Plus 用户现在受的使用时长限制\n- 3 张：每人可能拿到的重置卡数量\n\n## 怎么做到的\n\n推理就是模型拿到你的问题后真正干活、生成答案的那一步。限制一取消，大家能用的次数变多，推理用量会先涨。\n\n用量涨了，成本不会停在订阅费上。背后要用的是显卡、HBM 和机房的电。HBM 是高带宽内存，可以理解成显卡旁边装模型数据的高速存储，它直接决定模型能跑多快、能同时服务多少人。订阅费和这些硬件成本并不直接对应。\n\n## 简单说\n\n- 5 种猜测，目前都还没有官方证实\n- 如果真取消 5 小时限制，用户先感受到的是用量变化，账单却落在别处\n- 明天就能看到答案\n\n## 为什么重要\n\n看 AI 产品放开或限制用量，不能只看订阅价格。用量一涨，卡、内存和电才是真正的成本，这也是这类消息值得多看一眼的原因。",
   "en_tries": 3
+ },
+ {
+  "link": "/ChokepointPT/status/2116145786513703402",
+  "text": "炸裂了\n\nsperidlabs Idol 开源图生3D模型 上线\n\n600M 参数，从零预训练\n\n消费级显卡就能跑\n\n显存占用不到 7.2 GB\n\n生成 1M splats 只要 3 秒\n\n丢一张图进去，就能出一个完整的3D物体。普通显卡就能跑。",
+  "src": "Meet Idol, an open image-to-3D model. A 3D-DiT that generates complete 3D objects from just an image.\n\nPre-trained from scratch, contains only 600M parameters, it runs on consumer GPUs, using less than 7.2 GB of VRAM and can generate 1M splats in 3 seconds. Try it today.\n\nFully",
+  "src_link": "/speridlabs/status/2115890658636656826",
+  "at": 1793363472.965201,
+  "n": 23,
+  "cover": "https://pbs.twimg.com/amplify_video_thumb/2115888862664994816/img/lblQAbfEGXEDNyRh.jpg",
+  "page_url": "",
+  "title": "一张图 3 秒出 3D 物体，Idol 开源，7.2 GB 显存就能跑",
+  "deck": "以前做 3D 模型要懂专业软件、还要高端显卡，现在丢一张图进去，普通电脑也有机会跑起来，门槛低了不少。",
+  "tag": "发布",
+  "body": "## 发生了什么\n\n- speridlabs 开源了 Idol，这是一个图生 3D 模型。\n- 你给它一张图，它会直接生成一个完整的 3D 物体。\n- 官方说可以直接去试用。\n\n## 关键数字\n\n- 600M 参数，是从零开始预训练的。\n- 显存占用不到 7.2 GB，消费级显卡就能跑。\n- 生成 1M splats 只要 3 秒。\n\n## 怎么做到的\n\n- Idol 用的是 3D DiT 结构。DiT 可以理解成一种基于 Transformer 的生成网络，思路和现在常见的画图模型相近，只不过这里生成的是 3D 内容。\n- 它输出的单位叫 splats。你可以把它想成很多带颜色和透明度的小光斑，把它们拼在一起，就成了一个立体物体。\n\n## 能用来干什么\n\n- 想要一个 3D 物体的雏形，不用从头建模，丢一张图就能先拿到初稿。\n- 手上有普通显卡的人，也能在自己的机器上试，不必依赖昂贵的云端服务。\n\n## 简单说\n\n以前 3D 建模是专业活，现在变成了丢张图、等几秒的事，而且对电脑的要求不高。\n\n## 为什么重要\n\n- 3D 内容制作长期被建模技能和硬件门槛卡住。\n- 模型开源加上显存要求低，意味着更多人能亲手试，也能在它的基础上继续做事情。",
+  "en": {
+   "title": "One Image, 3D Object in 3 Seconds: Idol Is Open Source and Runs on 7.2 GB of VRAM",
+   "deck": "Making a 3D model used to take professional software skills and a high-end graphics card. Now you drop in one image, and an ordinary computer may be able to run it. The barrier is much lower.",
+   "body": "## What happened\n\n- speridlabs open-sourced Idol, an image-to-3D model.\n- You give it one image, and it generates a complete 3D object directly.\n- The official team says you can try it right away.\n\n## Key numbers\n\n- 600M parameters, pretrained from scratch.\n- It uses under 7.2 GB of VRAM, so consumer graphics cards can run it.\n- Generating 1M splats takes only 3 seconds.\n\n## How it works\n\n- Idol uses a 3D DiT architecture. DiT can be understood as a Transformer-based generative network. The approach is close to today's common image models, except that here it generates 3D content.\n- Its output unit is called splats. Think of them as many small colored, semi-transparent light spots. Put together, they form a solid object.\n\n## What it can be used for\n\n- If you need a rough 3D object, you can skip modeling from scratch. Drop in one image and get a first draft.\n- People with an ordinary graphics card can also run it on their own machine, without relying on expensive cloud services.\n\n## In short\n\nMaking 3D content used to be specialist work. Now it means dropping in an image and waiting a few seconds, and the computer does not need to be high-end.\n\n## Why it matters\n\n- Making 3D content has long been held back by modeling skills and hardware barriers.\n- An open model with low VRAM needs means more people can try it themselves and build on it."
+  }
  }
 ]
