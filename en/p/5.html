@@ -55,7 +55,7 @@ a.card:hover{transform:translateY(-2px);box-shadow:0 0 0 1px rgba(0,0,0,.05),0 1
 .ssf{display:block;width:100%;height:150px;border:0;background:transparent;margin-top:8px;border-radius:12px}.subwrap{margin-top:28px;padding:18px;border-radius:16px;background:var(--tint)}#subdlg{border:0;padding:24px 20px 20px;border-radius:22px;width:min(calc(100vw - 32px),420px);background:var(--bg);color:var(--ink);box-shadow:0 20px 60px rgba(0,0,0,.3)}
 #subdlg::backdrop{background:rgba(0,0,0,.4);-webkit-backdrop-filter:blur(4px);backdrop-filter:blur(4px)}#subdlg h3{margin:0 32px 0 0;font-size:19px}
 #subdlg .x{position:absolute;top:12px;right:12px;margin:0}#subdlg .x button{width:34px;height:34px;border:0;border-radius:999px;background:var(--tint);color:var(--ink);font-size:20px;cursor:pointer}
-@media(min-width:1100px){.mob{display:none}}
+@media(min-width:1100px){.mob{display:none}}@media(max-width:1099.98px){.side .sub-card{display:none}}   /* 10-29: under 1100px the feed already has its own box (.mob), the side one showed twice */
 .paper .subwrap .note{font-size:13px;line-height:1.6;margin:10px 0 0}.paper .subwrap h3{margin:0}.subwrap h3{margin:0;font-size:17px}.side .sub-card h3{font-size:17px}
 .rules{margin:10px 0 0;padding-left:18px;color:var(--ink2);font-size:14.5px;line-height:1.8}
 .paper{max-width:800px;margin:6px auto 0;padding:26px clamp(18px,4.5vw,48px) 30px}
