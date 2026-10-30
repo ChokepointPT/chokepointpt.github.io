@@ -368,5 +368,21 @@
    "deck": "The codename does not show which company made the model, and Arena is a blind test, so judging its style depends on what you ask it.",
    "body": "## What happened\n\nA new model showed up on Arena. Its test codename is fe-pichu. The codename does not show which company built it. Someone who read its answers said the tone sounded strong and full. It also seemed a bit stiff and formal, with a sense of weight.\n\n## What it can be used for\n\nArena is a blind test. You do not know which company's model is behind each answer. You only see which of two answers is better. This makes the test cleaner, because no brand name shapes your judgment. What you see is mainly the answer itself.\n\n## In short\n\nWhether the tone matches depends on what you ask. Chat and coding may bring out very different styles. One or two rounds is too few. Drawing a conclusion now would be too early.\n\n## Why it matters\n\nAnonymous tests like this are a window for seeing new models early. Write down your first impression. Then ask several kinds of questions to check it. That is far more reliable than taking someone else's word for it."
   }
+ },
+ {
+  "link": "/ChokepointPT/status/2115429638352859379",
+  "text": "要是取消5小时限制，最先涨的是推理用量。用量一涨，账单最后会算到卡、HBM和机房的电上，订阅费并不直接对应这笔账。",
+  "src": "Tibo 说明天会有好消息\n我想了想大概只有以下几种可能：\n\n1. 发布 GPT-6.1 Astra\n2. 发布 GPT-6.1 Luna\n3. 取消 Plus 用户的 5 小时限制\n4. 每人 3 张重置卡\n5. 和土豆姐官宣\n\n如果以上都没有，那 Tibo 明天请闭麦",
+  "src_link": "/xKaka1456/status/2115426336332521872",
+  "at": 1793337420.414974,
+  "why": "daily pick, 6181 views",
+  "n": 22,
+  "cover": "",
+  "page_url": "",
+  "title": "明天可能有大消息，5 种猜测里最值得看的是取消 5 小时限制",
+  "deck": "如果 Plus 用户的 5 小时限制真被取消，最先涨的是推理用量，而这笔开销最后会落到芯片、内存和机房的电费上。",
+  "tag": "深度",
+  "body": "## 发生了什么\n\n一条帖子说 Tibo 明天会有好消息，并列出了 5 种可能：发布 GPT-6.1 Astra，发布 GPT-6.1 Luna，取消 Plus 用户的 5 小时限制，每人 3 张重置卡，和土豆姐官宣。帖子最后还说，如果以上都没有，那 Tibo 明天请闭麦。\n\n## 关键数字\n\n- 5 种可能，其中两种是模型名：GPT-6.1 Astra 和 GPT-6.1 Luna\n- 5 小时：Plus 用户现在受的使用时长限制\n- 3 张：每人可能拿到的重置卡数量\n\n## 怎么做到的\n\n推理就是模型拿到你的问题后真正干活、生成答案的那一步。限制一取消，大家能用的次数变多，推理用量会先涨。\n\n用量涨了，成本不会停在订阅费上。背后要用的是显卡、HBM 和机房的电。HBM 是高带宽内存，可以理解成显卡旁边装模型数据的高速存储，它直接决定模型能跑多快、能同时服务多少人。订阅费和这些硬件成本并不直接对应。\n\n## 简单说\n\n- 5 种猜测，目前都还没有官方证实\n- 如果真取消 5 小时限制，用户先感受到的是用量变化，账单却落在别处\n- 明天就能看到答案\n\n## 为什么重要\n\n看 AI 产品放开或限制用量，不能只看订阅价格。用量一涨，卡、内存和电才是真正的成本，这也是这类消息值得多看一眼的原因。",
+  "en_tries": 1
  }
 ]
