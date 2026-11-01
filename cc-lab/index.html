@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>每周一收租</title>
+<meta name="description" content="每周一开盘卖当周 covered call 的简单规则，附本周行权价和最低挂单价。回测研究记录，不是投资建议。">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+:root{--bg:#f3f4f1;--surface:#fff;--ink:#141513;--ink2:#4f514c;--muted:#878a82;--line:#e2e4de;--accent:#1c5cab;--good:#0a8f0a;--bad:#cf3a3a;--chip:#eef3fb;
+ --sans:"IBM Plex Sans","PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,sans-serif;--mono:"IBM Plex Mono",ui-monospace,Menlo,monospace}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e0f0e;--surface:#191a18;--ink:#f0efec;--ink2:#c3c2b7;--muted:#8c8e86;--line:#2c2e2a;--accent:#86b6ef;--good:#4cc45a;--bad:#f27d7d;--chip:#1d2633;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0e0f0e;--surface:#191a18;--ink:#f0efec;--ink2:#c3c2b7;--muted:#8c8e86;--line:#2c2e2a;--accent:#86b6ef;--good:#4cc45a;--bad:#f27d7d;--chip:#1d2633;color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:15px;line-height:1.6;margin:0}
+.wrap{max-width:880px;margin:0 auto;padding-block:28px 48px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.top{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap}
+.top a{color:var(--accent);text-decoration:none;font-weight:600}
+h1{font-size:clamp(28px,6vw,44px);line-height:1.15;margin:22px 0 8px;text-wrap:balance;letter-spacing:-.01em}
+.lede{color:var(--ink2);max-width:62ch;margin:0 0 24px}
+h2{font-size:19px;margin:34px 0 12px}
+ol.rules{list-style:none;margin:0;padding:0;display:grid;gap:10px;counter-reset:r}
+ol.rules li{counter-increment:r;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px 14px 56px;position:relative}
+ol.rules li::before{content:counter(r);position:absolute;left:16px;top:13px;width:26px;height:26px;border-radius:50%;background:var(--ink);color:var(--bg);font:600 14px/26px var(--mono);text-align:center}
+ol.rules b{display:block;margin-bottom:2px}
+ol.rules span{color:var(--ink2);font-size:14px}
+.tw{overflow-x:auto;background:var(--surface);border:1px solid var(--line);border-radius:12px}
+table{border-collapse:collapse;width:100%;font-size:14px}
+th,td{padding:9px 12px;border-bottom:1px solid var(--line);text-align:left;white-space:nowrap}
+th{color:var(--muted);font-weight:500;font-size:12.5px}
+tr:last-child td{border-bottom:0}
+td.n{font-family:var(--mono);text-align:right} th.n{text-align:right}
+tr.off td{color:var(--muted)} tr.on .act{color:var(--good);font-weight:600}
+.pos{color:var(--good)} .neg{color:var(--bad)}
+.note{color:var(--muted);font-size:13px;margin:8px 0 0}
+.risk{background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--bad);border-radius:12px;padding:14px 18px}
+.risk ul{margin:6px 0 0;padding-left:18px;color:var(--ink2)}
+.chip{display:inline-block;background:var(--chip);color:var(--accent);border-radius:999px;padding:2px 10px;font-size:12.5px;font-weight:500}
+footer{margin-top:36px;color:var(--muted);font-size:12.5px}
+</style></head><body><div class="wrap">
+<div class="top"><span class="chip">COVERED CALL LAB · 简单版</span><a href="detail.html">看完整回测 →</a></div>
+<h1>每周一开盘，四只票，卖一张当周 call。</h1>
+<p class="lede">规则来自两年回测，再用更早的两段年份验证过。不猜涨跌，只按规则卖当周到期的 covered call。下面是规则，和本周按上周五收盘算好的价格。</p>
+
+<h2>规则</h2>
+<ol class="rules">
+<li><b>只做 KTOS、AVAV、CRWV、AAOI。</b><span>手里每有 100 股，卖一张。ASTS、GOOG 回测里卖 call 输给一直拿着，不做。</span></li>
+<li><b>周一开盘后卖，当周五到期。</b><span>行权价取开盘价往上 3% 的那一档。别等涨了再卖，回测里等涨更差。</span></li>
+<li><b>挂限价单，不低于下表的"最低挂单"。</b><span>挂不上就这周不卖。用市价单卖在买价上，回测里的优势会全部送掉。</span></li>
+<li><b>卖完不管，拿到周五。</b><span>不提前买回，不止损。回测里"赚一半就买回"和"翻倍就止损"都更差。</span></li>
+<li><b>被叫走了，下周一开盘再买回 100 股接着卖。</b><span>回测就是这么算的。</span></li>
+<li><b>AVAV、AAOI 财报那周不卖。</b><span>这两只两年里各有两次财报后一天涨 40% 以上。</span></li>
+</ol>
+
+<h2>本周（11/2 到 11/6）</h2>
+<div class="tw"><table><thead><tr><th>股票</th><th class="n">上周五收盘</th><th class="n">行权价</th><th class="n">上周五报价 买 / 卖</th><th class="n">最低挂单</th><th>下次财报</th><th>本周</th></tr></thead><tbody><tr class="on"><td><b>KTOS</b></td><td class="n">41.09</td><td class="n">42.5C</td>
+<td class="n">1.70 / 2.30</td><td class="n">0.80</td><td>11/5</td><td class="act">卖</td></tr><tr class="on"><td><b>AVAV</b></td><td class="n">126.11</td><td class="n">130C</td>
+<td class="n">2.75 / 3.50</td><td class="n">2.43</td><td>12/2</td><td class="act">卖</td></tr><tr class="on"><td><b>CRWV</b></td><td class="n">54.87</td><td class="n">57C</td>
+<td class="n">2.35 / 2.44</td><td class="n">2.07</td><td>11/10</td><td class="act">卖</td></tr><tr class="off"><td><b>AAOI</b></td><td class="n">69.05</td><td class="n">71.5C</td>
+<td class="n">4.00 / 5.80</td><td class="n">3.14</td><td>11/5</td><td class="act">不卖：财报周</td></tr><tr class="off"><td><b>ASTS</b></td><td class="n">40.97</td><td class="n">42.5C</td>
+<td class="n">1.15 / 1.67</td><td class="n">1.30</td><td>11/9</td><td class="act">不卖：回测输给一直拿着</td></tr><tr class="off"><td><b>GOOG</b></td><td class="n">278.22</td><td class="n">287.5C</td>
+<td class="n">2.08 / 2.27</td><td class="n">1.55</td><td></td><td class="act">不卖：回测输给一直拿着</td></tr></tbody></table></div>
+<p class="note">行权价和最低挂单按上周五收盘价算。周一开盘价不一样的话，按开盘价重新取 3% 那一档，最低挂单按比例变。财报周的真实报价会比最低挂单高很多，正常。</p>
+
+<h2>为什么是这四只</h2>
+<div class="tw"><table><thead><tr><th>股票</th><th class="n">卖 call</th><th class="n">一直拿着</th><th class="n">每 4 周定投</th><th></th></tr></thead><tbody><tr class="on"><td><b>KTOS</b></td><td class="n pos">+115%</td><td class="n">+58%</td><td class="n">-11%</td><td>跟</td></tr><tr class="on"><td><b>AVAV</b></td><td class="n neg">-10%</td><td class="n">-45%</td><td class="n">-35%</td><td>跟</td></tr><tr class="on"><td><b>CRWV</b></td><td class="n pos">+94%</td><td class="n">+15%</td><td class="n">-30%</td><td>跟</td></tr><tr class="on"><td><b>AAOI</b></td><td class="n pos">+301%</td><td class="n">+149%</td><td class="n">+108%</td><td>跟</td></tr><tr class="off"><td><b>ASTS</b></td><td class="n neg">-23%</td><td class="n">+86%</td><td class="n">-2%</td><td>不跟</td></tr><tr class="off"><td><b>GOOG</b></td><td class="n pos">+48%</td><td class="n">+55%</td><td class="n">+17%</td><td>不跟</td></tr></tbody></table></div>
+<p class="note">最近两年（2024-11 到 2026-10-30），同样本金，周一开盘卖 3% 外当周 call，成交价按模型价 0.85 倍。细节、样本外年份、敏感性都在<a href="detail.html" style="color:var(--accent)">完整回测</a>里。</p>
+
+<h2>会亏在哪</h2>
+<div class="risk"><ul>
+<li>卖 call 不挡下跌。AVAV 两年卖 call 也亏了 10%，只是比一直拿着少亏。</li>
+<li>大涨会被封顶。AAOI 在 2022 到 2023 年涨了三倍，那段卖 call 输给一直拿着。</li>
+<li>被叫走在应税账户里算短期资本利得，要交税。</li>
+<li>回测里的权利金是用模型估的，不是历史成交价。这是研究记录，不是投资建议，盈亏自负。</li>
+</ul></div>
+
+<footer>数据到 2026-10-30，交易日收盘后自动更新。</footer>
+</div></body></html>
