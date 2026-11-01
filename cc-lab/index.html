@@ -37,36 +37,37 @@ tr.off td{color:var(--muted)} tr.on .act{color:var(--good);font-weight:600}
 footer{margin-top:36px;color:var(--muted);font-size:12.5px}
 </style></head><body><div class="wrap">
 <div class="top"><span class="chip">COVERED CALL LAB · 简单版</span><a href="detail.html">看完整回测 →</a></div>
-<h1>每周一开盘，四只票，卖一张当周 call。</h1>
-<p class="lede">规则来自两年回测，再用更早的两段年份验证过。不猜涨跌，只按规则卖当周到期的 covered call。下面是规则，和本周按上周五收盘算好的价格。</p>
+<div class="risk" style="border-left-color:var(--accent);margin-top:18px"><b>11/01 更正。</b>这页之前写的收益（比如 KTOS +395%）用的历史权利金估法太乐观：它把今天的"隐含波动率 / 实际波动率"比例原样套到过去每一周，波动飙升的那些周权利金被高估。现在改成波动率一半向一年中位数回归，成交价按我们真实成交的 0.8 倍。数字小了很多，能稳定赢的票也只剩 1 只。三种估法的结果都列在下面。</div>
+<h1>每周卖 call，想跑赢一直拿着，比网上说的难。</h1>
+<p class="lede">我们回测了 6 只票。按保守一点的估法，主样本和更早的两段年份都同时赢过一直拿着和定投的，只有 KTOS 只。下面的执行规则（什么时候卖、行权价、挂单、要不要买回）在各种估法下都成立。</p>
 
 <h2>规则</h2>
 <ol class="rules">
-<li><b>只做 KTOS、AVAV、CRWV、AAOI。</b><span>手里每有 100 股，卖一张。ASTS 一周能涨 30%，3% 外不稳，要做只做 20% 外。GOOG 回测里卖 call 输给一直拿着，不做。</span></li>
+<li><b>只在回测稳定赢的票上做：KTOS。</b><span>手里每有 100 股，卖一张。CRWV、AAOI 主样本赢、更早年份不稳或没有数据，小仓位观察。ASTS、AVAV、GOOG 回测里卖 call 输给一直拿着或定投，不做。</span></li>
 <li><b>周一开盘后卖，当周五到期。</b><span>行权价取开盘价往上 3% 的那一档。别等涨了再卖，回测里等涨更差。</span></li>
 <li><b>挂限价单，不低于下表的"最低挂单"。</b><span>挂不上就这周不卖。用市价单卖在买价上，回测里的优势会全部送掉。</span></li>
-<li><b>卖完不管，拿到周五。</b><span>不提前买回，不止损。回测里"赚一半就买回"四只都更差，"翻倍就止损"四只合计也更差。</span></li>
+<li><b>卖完不管，拿到周五。</b><span>不提前买回，不止损。回测里"赚一半就买回"和"翻倍就止损"，除 GOOG 外每只都更差。</span></li>
 <li><b>被叫走了，就买回 100 股接着卖。</b><span>回测是按周五收盘价买回算的。等到周一开盘再买，会多一个周末跳空，可能更好也可能更差。</span></li>
 <li><b>AVAV、AAOI 财报那周不卖。</b><span>这两只两年里各有两次财报后一天涨 40% 以上。</span></li>
 </ol>
 
 <h2>本周（11/2 到 11/6）</h2>
 <div class="tw"><table><thead><tr><th>股票</th><th class="n">上周五收盘</th><th class="n">行权价</th><th class="n">上周五报价 买 / 卖</th><th class="n">最低挂单</th><th>下次财报</th><th>本周</th></tr></thead><tbody><tr class="on"><td><b>KTOS</b></td><td class="n">41.09</td><td class="n">42.5C</td>
-<td class="n">1.70 / 2.30</td><td class="n">0.80</td><td>11/5</td><td class="act">卖</td></tr><tr class="on"><td><b>AVAV</b></td><td class="n">126.11</td><td class="n">130C</td>
-<td class="n">2.75 / 3.50</td><td class="n">2.43</td><td>12/2</td><td class="act">卖</td></tr><tr class="on"><td><b>CRWV</b></td><td class="n">54.87</td><td class="n">57C</td>
-<td class="n">2.35 / 2.44</td><td class="n">2.07</td><td>11/10</td><td class="act">卖</td></tr><tr class="off"><td><b>AAOI</b></td><td class="n">69.05</td><td class="n">71.5C</td>
-<td class="n">4.00 / 5.80</td><td class="n">3.14</td><td>11/5</td><td class="act">不卖：财报周</td></tr><tr class="off"><td><b>ASTS</b></td><td class="n">40.97</td><td class="n">42.5C</td>
-<td class="n">1.15 / 1.67</td><td class="n">1.30</td><td>11/9</td><td class="act">不卖：只做 20% 外</td></tr><tr class="off"><td><b>GOOG</b></td><td class="n">278.22</td><td class="n">287.5C</td>
-<td class="n">2.08 / 2.27</td><td class="n">1.55</td><td></td><td class="act">不卖：回测输给一直拿着</td></tr></tbody></table></div>
+<td class="n">1.70 / 2.30</td><td class="n">0.83</td><td>11/5</td><td class="act">卖</td></tr><tr class="off"><td><b>AVAV</b></td><td class="n">126.11</td><td class="n">130C</td>
+<td class="n">2.75 / 3.50</td><td class="n">2.50</td><td>12/2</td><td class="act">不卖：回测输</td></tr><tr class="off"><td><b>CRWV</b></td><td class="n">54.87</td><td class="n">57C</td>
+<td class="n">2.35 / 2.44</td><td class="n">1.99</td><td>11/10</td><td class="act">观察：小仓位</td></tr><tr class="off"><td><b>AAOI</b></td><td class="n">69.05</td><td class="n">71.5C</td>
+<td class="n">4.00 / 5.80</td><td class="n">3.00</td><td>11/5</td><td class="act">不卖：财报周</td></tr><tr class="off"><td><b>ASTS</b></td><td class="n">40.97</td><td class="n">42.5C</td>
+<td class="n">1.15 / 1.67</td><td class="n">1.22</td><td>11/9</td><td class="act">不卖：回测输</td></tr><tr class="off"><td><b>GOOG</b></td><td class="n">278.22</td><td class="n">287.5C</td>
+<td class="n">2.08 / 2.27</td><td class="n">1.44</td><td></td><td class="act">不卖：回测输</td></tr></tbody></table></div>
 <p class="note">行权价和最低挂单按上周五收盘价算。周一开盘价不一样的话，按开盘价重新取 3% 那一档，最低挂单按比例变。财报周的真实报价会比最低挂单高很多，正常。</p>
 
 <h2>为什么是这四只</h2>
-<div class="tw"><table><thead><tr><th>股票</th><th class="n">卖 call</th><th class="n">一直拿着</th><th class="n">每 4 周定投</th><th class="n">一年窗口里两样都赢</th><th></th></tr></thead><tbody><tr class="on"><td><b>KTOS</b></td><td class="n pos">+395%</td><td class="n">+80%</td><td class="n">-11%</td><td class="n">95%（40 个）</td><td>跟</td></tr><tr class="on"><td><b>AVAV</b></td><td class="n pos">+57%</td><td class="n">-41%</td><td class="n">-35%</td><td class="n">95%（40 个）</td><td>跟</td></tr><tr class="on"><td><b>CRWV</b></td><td class="n pos">+95%</td><td class="n">+43%</td><td class="n">-30%</td><td class="n">38%（8 个）</td><td>跟</td></tr><tr class="on"><td><b>AAOI</b></td><td class="n pos">+896%</td><td class="n">+310%</td><td class="n">+113%</td><td class="n">60%（40 个）</td><td>跟</td></tr><tr class="off"><td><b>ASTS</b></td><td class="n pos">+135%</td><td class="n">+74%</td><td class="n">-2%</td><td class="n">57%（40 个）</td><td>不跟</td></tr><tr class="off"><td><b>GOOG</b></td><td class="n pos">+9%</td><td class="n">+62%</td><td class="n">+17%</td><td class="n">0%（40 个）</td><td>不跟</td></tr></tbody></table></div>
-<p class="note">最近两年（2024-11 到 2026-10-30），同样本金，周一开盘卖 3% 外当周 call，成交价按模型价 0.85 倍。ASTS 3% 外虽然赢，成交价再差一点就输。"一年窗口"是从 2022-11 起每隔 4 周换一个起点、各跑一年，看卖 call 同时赢过一直拿着和定投的比例：KTOS、AVAV 几乎每个起点都赢，AAOI 在 2023 年那种大牛市里会输给一直拿着，CRWV 上市时间短、下跌那段输给定投，信心最低。细节、样本外年份、敏感性都在<a href="detail.html" style="color:var(--accent)">完整回测</a>里。</p>
+<div class="tw"><table><thead><tr><th>股票</th><th class="n">卖 call 乐观估法</th><th class="n">卖 call 基准</th><th class="n">卖 call 保守估法</th><th class="n">一直拿着</th><th class="n">每 4 周定投</th><th class="n">一年窗口里两样都赢</th><th></th></tr></thead><tbody><tr class="on"><td><b>KTOS</b></td><td class="n">+349%</td><td class="n pos"><b>+108%</b></td><td class="n">-52%</td><td class="n">+80%</td><td class="n">-11%</td><td class="n">53%（40 个）</td><td>跟</td></tr><tr class="off"><td><b>AVAV</b></td><td class="n">+42%</td><td class="n neg"><b>-38%</b></td><td class="n">-96%</td><td class="n">-41%</td><td class="n">-35%</td><td class="n">40%（40 个）</td><td>不跟</td></tr><tr class="off"><td><b>CRWV</b></td><td class="n">+51%</td><td class="n pos"><b>+157%</b></td><td class="n">+283%</td><td class="n">+43%</td><td class="n">-30%</td><td class="n">62%（8 个）</td><td>观察</td></tr><tr class="off"><td><b>AAOI</b></td><td class="n">+782%</td><td class="n pos"><b>+509%</b></td><td class="n">+270%</td><td class="n">+310%</td><td class="n">+113%</td><td class="n">33%（40 个）</td><td>观察</td></tr><tr class="off"><td><b>ASTS</b></td><td class="n">+83%</td><td class="n neg"><b>-48%</b></td><td class="n">-156%</td><td class="n">+74%</td><td class="n">-2%</td><td class="n">17%（40 个）</td><td>不跟</td></tr><tr class="off"><td><b>GOOG</b></td><td class="n">+7%</td><td class="n neg"><b>+14%</b></td><td class="n">+47%</td><td class="n">+62%</td><td class="n">+17%</td><td class="n">0%（40 个）</td><td>不跟</td></tr></tbody></table></div>
+<p class="note">最近两年（2024-11 到 2026-10-30），同样本金，从本金算起，周一开盘卖 3% 外当周 call，成交价按模型价 0.8 倍。三种估法的区别只在怎么估历史上每一周的波动率：乐观 = 用当周 20 日波动率，基准 = 当周和一年中位数各一半，保守 = 只用一年中位数。真实情况多半在乐观和保守之间。"一年窗口"是从 2022-11 起每隔 4 周换一个起点、各跑一年，看基准估法下卖 call 同时赢过一直拿着和定投的比例。细节、样本外年份、敏感性都在<a href="detail.html" style="color:var(--accent)">完整回测</a>里。</p>
 
 <h2>会亏在哪</h2>
 <div class="risk"><ul>
-<li>卖 call 不挡下跌。AVAV 两年里一直拿着亏了 41%，卖 call 是靠租金把它拉回正数，股价本身一样跌。</li>
+<li>卖 call 不挡下跌，只封顶上涨。AVAV 两年里一直拿着亏了 41%，卖 call 也一样亏。</li>
 <li>大涨会被封顶。AAOI 在 2023 到 2024 那段卖 call 输给一直拿着。</li>
 <li>被叫走在应税账户里算短期资本利得，要交税。</li>
 <li>回测里的权利金是用模型估的，不是历史成交价。这是研究记录，不是投资建议，盈亏自负。</li>
