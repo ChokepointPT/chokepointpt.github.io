@@ -48,12 +48,12 @@ footer{margin-top:36px;color:var(--muted);font-size:12.5px}
 <li><b>挂限价单，不低于下表的"最低挂单"。</b><span>挂不上就这周不卖。用市价单卖在买价上，回测里的优势会全部送掉。</span></li>
 <li><b>卖完不管，拿到周五。</b><span>不提前买回，不止损。回测里"赚一半就买回"和"翻倍就止损"，除 GOOG 外每只都更差。</span></li>
 <li><b>被叫走了，就买回 100 股接着卖。</b><span>回测是按周五收盘价买回算的。等到周一开盘再买，会多一个周末跳空，可能更好也可能更差。</span></li>
-<li><b>AVAV、AAOI 财报那周不卖。</b><span>这两只两年里各有两次财报后一天涨 40% 以上。</span></li>
+<li><b>AVAV、AAOI 财报那周不卖。</b><span>这两只两年里各有两次财报后一天涨 40% 以上。其他票财报周照卖，但买价要高于这只票过去每次财报周同样几天的平均让出（被叫走少赚的部分），不够就那周不卖。</span></li>
 </ol>
 
 <h2>本周剩下几天（11/4 到 11/6）</h2>
 <div class="tw"><table><thead><tr><th>股票</th><th class="n">11/3 收盘</th><th class="n">行权价</th><th class="n">11/3 报价 买 / 卖</th><th class="n">最低挂单</th><th>下次财报</th><th>本周</th></tr></thead><tbody><tr class="on"><td><b>KTOS</b></td><td class="n">40.99</td><td class="n">42.5C</td>
-<td class="n">1.00 / 1.60</td><td class="n">0.61</td><td>11/5</td><td class="act">卖</td></tr><tr class="off"><td><b>AVAV</b></td><td class="n">123.53</td><td class="n">128C</td>
+<td class="n">1.00 / 1.60</td><td class="n">0.64</td><td>11/5</td><td class="act">卖</td></tr><tr class="off"><td><b>AVAV</b></td><td class="n">123.53</td><td class="n">128C</td>
 <td class="n">0.30 / 4.90</td><td class="n">1.66</td><td>12/2</td><td class="act">观察：小仓位</td></tr><tr class="off"><td><b>CRWV</b></td><td class="n">53.74</td><td class="n">56C</td>
 <td class="n">2.00 / 2.09</td><td class="n">1.52</td><td>11/10</td><td class="act">观察：小仓位</td></tr><tr class="off"><td><b>AAOI</b></td><td class="n">63.97</td><td class="n">66C</td>
 <td class="n">4.50 / 5.00</td><td class="n">2.23</td><td>11/5</td><td class="act">不卖：财报周</td></tr><tr class="off"><td><b>ASTS</b></td><td class="n">37.15</td><td class="n">38.5C</td>
@@ -62,7 +62,7 @@ footer{margin-top:36px;color:var(--muted);font-size:12.5px}
 <td class="n">3.25 / 3.35</td><td class="n">2.42</td><td>1/27</td><td class="act">卖</td></tr><tr class="on"><td><b>PLTR</b></td><td class="n">175.40</td><td class="n">182.5C</td>
 <td class="n">2.06 / 2.11</td><td class="n">1.97</td><td>2/1</td><td class="act">卖</td></tr><tr class="on"><td><b>AAPL</b></td><td class="n">331.90</td><td class="n">342.5C</td>
 <td class="n">0.59 / 0.70</td><td class="n">0.61</td><td>1/28</td><td class="act">卖</td></tr></tbody></table></div>
-<p class="note">行权价和最低挂单按 11/3 收盘价算。规则是周一开盘卖，周中才看到的话也可以按这张表卖，剩的天数少，权利金也少。开盘价不一样的话，按开盘价重新取 3% 那一档，最低挂单按比例变。财报周的真实报价会比最低挂单高很多，正常。</p>
+<p class="note">行权价和最低挂单按 11/3 收盘价算。规则是周一开盘卖，周中才看到的话也可以按这张表卖，剩的天数少，权利金也少。开盘价不一样的话，按开盘价重新取 3% 那一档，最低挂单按比例变。财报周的真实报价会比最低挂单高很多，正常。 KTOS 这周有财报：过去 25 次财报周同样几天，42.5C 平均让出 0.64/股，买价 1.00 高于它，照卖，最低挂单取 0.64。</p>
 
 <h2>为什么是这四只</h2>
 <div class="tw"><table><thead><tr><th>股票</th><th class="n">卖 call 乐观估法</th><th class="n">卖 call 基准</th><th class="n">卖 call 保守估法</th><th class="n">一直拿着</th><th class="n">每 4 周定投</th><th class="n">一年窗口里两样都赢</th><th></th></tr></thead><tbody><tr class="on"><td><b>KTOS</b></td><td class="n">+408%</td><td class="n pos"><b>+144%</b></td><td class="n">-29%</td><td class="n">+80%</td><td class="n">-11%</td><td class="n">60%（40 个）</td><td>跟</td></tr><tr class="off"><td><b>AVAV</b></td><td class="n">+48%</td><td class="n pos"><b>-35%</b></td><td class="n">-94%</td><td class="n">-42%</td><td class="n">-36%</td><td class="n">42%（40 个）</td><td>观察</td></tr><tr class="off"><td><b>CRWV</b></td><td class="n">+107%</td><td class="n pos"><b>+231%</b></td><td class="n">+384%</td><td class="n">+40%</td><td class="n">-31%</td><td class="n">89%（9 个）</td><td>观察</td></tr><tr class="off"><td><b>AAOI</b></td><td class="n">+912%</td><td class="n pos"><b>+607%</b></td><td class="n">+342%</td><td class="n">+280%</td><td class="n">+98%</td><td class="n">40%（40 个）</td><td>观察</td></tr><tr class="off"><td><b>ASTS</b></td><td class="n">+84%</td><td class="n neg"><b>-33%</b></td><td class="n">-132%</td><td class="n">+58%</td><td class="n">-11%</td><td class="n">25%（40 个）</td><td>不跟</td></tr><tr class="off"><td><b>GOOG</b></td><td class="n">+9%</td><td class="n neg"><b>+17%</b></td><td class="n">+51%</td><td class="n">+62%</td><td class="n">+18%</td><td class="n">0%（40 个）</td><td>不跟</td></tr></tbody></table></div>
