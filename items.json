@@ -571,5 +571,25 @@
    "deck": "Many people think pay-as-you-go is cheap and that topping up is no burden. In fact, the money often disappears quietly during long conversations.",
    "body": "## What happened\n\nA user online shared their experience with the API. At first they thought pay-as-you-go was very cheap. But it cost a dozen-odd yuan a day, and topping up did not feel like a burden. Over one month, the total was far more than GPT Plus and Claude Pro. Their conclusion was that DeepSeek is the most cost-effective choice.\n\n## Key numbers\n\n- A dozen-odd yuan a day: the daily cost under pay-as-you-go billing\n- One month: small amounts built up, and the final total was far above the two subscription services\n\n## How it adds up\n\nThe API charges by token. A token is a unit of billing for how a model reads and writes text. In a chat, every turn counts the whole earlier history again as input and bills it again. So the longer the conversation, the bigger the bill for each turn. Long chats are often the most expensive part.\n\n## What you can do\n\nIf you want to save money, don't just focus on switching models.\n\n- When a topic is done, start a new session, so old history stops being billed again and again\n- Don't keep asking endless follow-up questions in one long conversation. Split your questions up.\n\n## In short\n\nSaving money on the API depends less on which model you choose. The key is keeping conversations from growing without limit. Each time costs only a little, and small amounts add up to a large total."
   }
+ },
+ {
+  "link": "/ChokepointPT/status/2117630803182031268",
+  "text": "这番表态只是定了个底线，没说往哪走。它改不了任何一张报表。想判断风险，先看资金流和现金流，价格一般最后才动。",
+  "src": "赵乐际委员长出席，央行行长潘功胜：维护股票、债券、外汇等金融市场平稳运行，守住不发生系统性金融风险底线。\n\n高度和关注度都上去了！",
+  "src_link": "/tuolaji2024/status/2117623260183711849",
+  "at": 1793859420.5944672,
+  "why": "daily pick, 3614 views",
+  "n": 33,
+  "cover": "",
+  "page_url": "",
+  "title": "央行表态守底线：稳住股债汇，不让系统性风险发生",
+  "deck": "这句话层级高、关注度也高，但它只定了底线，没说往哪走，普通人别把它当成买卖信号。",
+  "tag": "商业",
+  "body": "## 发生了什么\n\n赵乐际委员长出席，央行行长潘功胜表了态。核心意思有两点：维护股票、债券、外汇等金融市场平稳运行，守住不发生系统性金融风险的底线。\n\n## 关键数字\n\n这次表态没有给出具体数字，也没有目标值。它是一句定性的话，说的是\"不能出大事\"。\n\n## 能用来干什么\n\n- 把它当背景看。它说明管理层对市场稳定很在意。\n- 别把它当信号。它没说要涨、要跌，也没说要出什么具体政策。\n- 想判断风险，先看资金流和现金流。钱往哪里走、公司手里有没有现金，通常比价格更早露出问题。价格一般是最后才动的。\n\n## 简单说\n\n系统性风险可以理解成：一处出问题，连带一大片市场都跟着乱，像多米诺骨牌。这次的话是在划一条线，告诉大家这条线要守住。线在哪里，接下来怎么走，还要看后面的动作。\n\n## 为什么重要\n\n这句话的分量，从说话人的层级和外界的关注度都能看出来。但它改不了任何一张报表。公司赚没赚钱、现金够不够，还是要看报表和现金流本身。",
+  "en": {
+   "title": "Central bank draws a line: keep stocks, bonds and currency stable, and prevent systemic financial risk",
+   "deck": "This statement comes from a high level and draws wide attention, but it only sets a floor and does not say which way things will go, so ordinary people should not treat it as a buy or sell signal.",
+   "body": "## What happened\n\nNPC Standing Committee Chairman Zhao Leji attended, and central bank governor Pan Gongsheng made a statement. The core message has two points. Keep stock, bond and currency markets running smoothly. Hold the line against systemic financial risk.\n\n## Key numbers\n\nThis statement gave no specific numbers and no target values. It is a qualitative remark. In plain terms, it says \"nothing major should go wrong.\"\n\n## What you can use it for\n\n- Treat it as background. It shows that management cares a lot about market stability.\n- Don't treat it as a signal. It does not say prices will rise or fall, and it does not name any specific policy.\n- To judge risk, start with fund flows and cash flow. Where money is moving, and whether companies have cash on hand, usually shows problems earlier than prices do. Prices usually move last.\n\n## In short\n\nSystemic risk can be understood like this: one problem sets off trouble across a large part of the market, like dominoes. This statement draws a line and tells everyone that the line must hold. Where the line sits, and how things go from here, still depends on the moves that follow.\n\n## Why it matters\n\nThe weight of this statement can be seen from the rank of the speaker and the attention it has drawn from outside. But it does not change any financial statement. Whether a company earned money and whether it has enough cash still have to be checked in the financial statements and cash flow itself."
+  }
  }
 ]
