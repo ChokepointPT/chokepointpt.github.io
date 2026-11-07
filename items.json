@@ -607,5 +607,25 @@
   "tag": "商业",
   "body": "## 发生了什么\n一条市场消息说，今天的资金流入金额约800亿元以上，是这一轮的单日最高。它还提到，历史上只有25年4月8日比这次更高，源文把那一天和关税战放在一起。\n\n## 关键数字\n- 今日流入：约800亿元以上。这是已经发生的数字，当天就能查到。\n- 明天融资：可能减少500亿。这是预测，要等交易所公布融资余额，才能确认对不对。\n\n## 怎么看这两个数字\n融资就是投资者向券商借钱买股票，融资余额是这些借款的总量。所以\"明天减少500亿\"要等余额公布后，拿前后两个数字一比才知道。\n\n## 简单说\n一个数字已经发生，可以去核对。另一个是对未来的判断，要等数据出来才能兑现或落空。读这类消息，先分清哪部分是事实，哪部分是预测。\n\n## 为什么重要\n市场消息常把事实和预测混在一句话里，读的人容易把两者当成同样可靠。分开看，就知道哪部分能马上核实，哪部分还要等。",
   "en_tries": 3
+ },
+ {
+  "link": "/ChokepointPT/status/2118495974847086739",
+  "text": "盘前跌1%还只是开头。要是得州真停工，GE Vernova那18 GW的占位预约可能最先松动。",
+  "src": "得州当选州长吉娜·伊诺霍萨表示，别恨数据中心，要恨它们如何占得州人的便宜。我们可以在我们的条件下与马斯克及其公司建立牢固的合作关系。在找到保护得州民众安全的措施之前，我们必须停止目前对数据中心的建设。\n\n纳斯达克盘前再-1%",
+  "src_link": "/tuolaji2024/status/2118490362532819343",
+  "at": 1794032220.333452,
+  "why": "daily pick, 2304 views",
+  "n": 35,
+  "cover": "",
+  "page_url": "",
+  "title": "得州喊停数据中心，GE Vernova那18 GW的预约可能先松动",
+  "deck": "一位州长当选人的一句话，让纳斯达克盘前就跌了1%，这件事关系到AI数据中心能不能按计划建起来。",
+  "tag": "商业",
+  "body": "## 发生了什么\n\n得州当选州长吉娜·伊诺霍萨说，别恨数据中心，要恨它们怎么占得州人的便宜。她的意思是，可以在自己定的条件下和马斯克及其公司建立牢固的合作。但在找到保护得州民众安全的办法之前，现在对数据中心的建设必须停下来。\n\n## 关键数字\n\n- 纳斯达克盘前跌1%：这是市场最先的反应。\n- 18 GW：GE Vernova手里那笔占位预约的规模。占位预约就是先把名额留住，等真要用时再落实。\n\n## 为什么重要\n\n数据中心就是专门给AI算力用的大楼，非常耗电。如果得州真的停工，提前占好的电力名额就会受到冲击。我们的判断是，盘前跌1%只是开头，那笔18 GW的预约可能最先松动。\n\n## 投资角度\n\n这件事里被点名的上市公司是GE Vernova（$GEV）。它的18 GW占位预约，是得州停工时最先可能受影响的一环。这是风险推演，不是买卖建议。\n\n## 简单说\n\n州长一句话，股市先用1%的跌幅表了态。要是得州真停工，最先动的可能就是GE Vernova那18 GW的预约。，Note on the cashtag: the source texts never give GE Vernova's ticker. I added `$GEV` from general knowledge because the format asks for a cashtag when a listed company is involved. Check it before publishing.",
+  "en": {
+   "title": "Texas Calls a Halt to Data Centers, and GE Vernova's 18 GW Reservations May Loosen First",
+   "deck": "A governor-elect's one sentence already had the Nasdaq down 1% in pre-market trading, and it bears on whether AI data centers can be built on schedule.",
+   "body": "## What happened\n\nTexas governor-elect Gina Hinojosa said people should not hate data centers. They should hate how the centers take advantage of Texans. Her point is that a strong partnership with Musk and his companies can be built on terms she sets. But until a way is found to protect the safety of Texans, construction of data centers must stop now.\n\n## Key numbers\n\n- Nasdaq down 1% in pre-market trading: This was the market's first reaction.\n- 18 GW: The size of the placeholder reservations GE Vernova holds. A placeholder reservation holds a spot now, and the spot is confirmed when the power is actually needed.\n\n## Why it matters\n\nData centers are the buildings that run AI computing. They use a lot of power. If Texas really halts work, the power slots reserved in advance could take a hit. Our view is that the 1% pre-market drop is only the start, and the 18 GW reservations could loosen first.\n\n## Investment angle\n\nThe listed company named in this story is GE Vernova ($GEV). Its 18 GW placeholder reservations are the first link that could be hit if Texas halts work. This is a risk scenario, not a buy or sell recommendation.\n\n## In short\n\nA governor-elect's one sentence sent the Nasdaq down 1% before the open. If Texas really halts work, GE Vernova's 18 GW reservations may be the first to move."
+  }
  }
 ]
