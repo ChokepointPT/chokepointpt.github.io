@@ -45,7 +45,7 @@ footer{margin-top:36px;color:var(--muted);font-size:12.5px}
 <ol class="rules">
 <li><b>回测里没有稳定赢过一直拿着的票。</b><span>卖 call 先当成降低持仓成本、收一点租的办法，别指望它跑赢一直拿着。CRWV、AAOI 主样本赢、更早年份不稳或没有数据，小仓位观察。ASTS、KTOS、AVAV、GOOG 回测里卖 call 输给一直拿着或定投，不做。</span></li>
 <li><b>周一开盘后卖，当周五到期。</b><span>行权价取开盘价往上 3% 的那一档。别等涨了再卖，回测里等涨更差（GOOG 例外，等涨了再卖反而好些）。</span></li>
-<li><b>挂限价单，不低于下表的"最低挂单"。</b><span>挂不上就这周不卖。用市价单卖在买价上，回测里的优势会全部送掉。</span></li>
+<li><b>挂限价单，不低于下表的"最低挂单"。</b><span>最低挂单取模型价 0.8 倍和上个收盘买价里较高的，挂不上就这周不卖。按存下的 5 天收盘报价核对，平常周 20 次里有 14 次 0.8 倍模型价低于买价，所以多数时候卖在买价上就不比回测差。但别用市价单：AVAV、KTOS 买价常常只有中间价的两成上下，市价单会卖得很便宜。</span></li>
 <li><b>卖完不管，拿到周五。</b><span>不提前买回，不止损。回测里"赚一半就买回"和"翻倍就止损"，除 GOOG 外每只都更差。</span></li>
 <li><b>被叫走了，就买回 100 股接着卖。</b><span>回测是按周五收盘价买回算的。等到周一开盘再买，会多一个周末跳空，可能更好也可能更差。</span></li>
 <li><b>AAOI、AVAV、GOOG 财报那周不卖。</b><span>最近两年财报后单日最大的两次涨幅：AAOI 57% 和 55%，AVAV 22% 和 19%，GOOG 10% 和 3%。回测里这几只财报周卖 call 比平常周差（结论 1）。其他票财报周照卖，但买价要高于这只票过去每次财报周同样几天的平均让出（被叫走少赚的部分）再加两成半余量（样本外这个估计平均偏低两成），历史上从没涨到过的行权价也按 21 只票的实际让出留一个底线（结论 46），不够就那周不卖。</span></li>
@@ -56,10 +56,10 @@ footer{margin-top:36px;color:var(--muted);font-size:12.5px}
 <td class="n">0.10 / 1.10</td><td class="n">0.78</td><td>2/23</td></tr><tr class="off"><td><b>AVAV</b></td><td class="act">不卖：回测输</td><td class="n">112.76</td><td class="n">117C</td>
 <td class="n">0.75 / 5.40</td><td class="n">2.66</td><td>12/2</td></tr><tr class="off"><td><b>CRWV</b></td><td class="act">不卖：财报周报价不够</td><td class="n">46.40</td><td class="n">48C</td>
 <td class="n">4.15 / 4.30</td><td class="n">5.31</td><td>11/10</td></tr><tr class="off"><td><b>AAOI</b></td><td class="act">观察：小仓位</td><td class="n">50.13</td><td class="n">55C</td>
-<td class="n">1.90 / 2.20</td><td class="n">1.82</td><td>2/25</td></tr><tr class="off"><td><b>ASTS</b></td><td class="act">不卖：回测输</td><td class="n">32.33</td><td class="n">33.5C</td>
-<td class="n">2.46 / 2.68</td><td class="n">1.37</td><td>11/9</td></tr><tr class="off"><td><b>GOOG</b></td><td class="act">不卖：回测输</td><td class="n">283.93</td><td class="n">292.5C</td>
-<td class="n">2.33 / 2.47</td><td class="n">2.24</td><td>2/3</td></tr></tbody></table></div>
-<p class="note">行权价和最低挂单按 11/6 收盘价算。开盘价不一样的话，按开盘价重新取 3% 那一档，最低挂单按比例变。财报周的真实报价会比最低挂单高很多，正常。 CRWV 这周有财报：过去 6 次财报周同样几天，48C 平均让出加两成半余量 5.31/股，买价 4.15 不够，这周不卖。</p>
+<td class="n">1.90 / 2.20</td><td class="n">1.90</td><td>2/25</td></tr><tr class="off"><td><b>ASTS</b></td><td class="act">不卖：回测输</td><td class="n">32.33</td><td class="n">33.5C</td>
+<td class="n">2.46 / 2.68</td><td class="n">2.46</td><td>11/9</td></tr><tr class="off"><td><b>GOOG</b></td><td class="act">不卖：回测输</td><td class="n">283.93</td><td class="n">292.5C</td>
+<td class="n">2.33 / 2.47</td><td class="n">2.33</td><td>2/3</td></tr></tbody></table></div>
+<p class="note">行权价和最低挂单按 11/6 收盘价算。开盘价不一样的话，按开盘价重新取 3% 那一档，最低挂单按比例变。财报周模型价偏低，0.8 倍模型价只有中间价的 46% 左右（10 次），最低挂单基本就是买价。 CRWV 这周有财报：过去 6 次财报周同样几天，48C 平均让出加两成半余量 5.31/股，买价 4.15 不够，这周不卖。</p>
 
 <h2>为什么一只都不跟</h2>
 <div class="tw"><table><thead><tr><th>股票</th><th></th><th class="n">卖 call 乐观估法</th><th class="n">卖 call 基准</th><th class="n">卖 call 保守估法</th><th class="n">一直拿着</th><th class="n">每 4 周定投</th><th class="n">一年窗口里两样都赢</th></tr></thead><tbody><tr class="off"><td><b>KTOS</b></td><td>不跟</td><td class="n">+254%</td><td class="n neg"><b>+30%</b></td><td class="n">-116%</td><td class="n">+54%</td><td class="n">-24%</td><td class="n">38%（40 个）</td></tr><tr class="off"><td><b>AVAV</b></td><td>不跟</td><td class="n">+7%</td><td class="n neg"><b>-61%</b></td><td class="n">-110%</td><td class="n">-47%</td><td class="n">-42%</td><td class="n">28%（40 个）</td></tr><tr class="off"><td><b>CRWV</b></td><td>观察</td><td class="n">+67%</td><td class="n pos"><b>+204%</b></td><td class="n">+380%</td><td class="n">+21%</td><td class="n">-38%</td><td class="n">89%（9 个）</td></tr><tr class="off"><td><b>AAOI</b></td><td>观察</td><td class="n">+620%</td><td class="n pos"><b>+403%</b></td><td class="n">+206%</td><td class="n">+198%</td><td class="n">+55%</td><td class="n">25%（40 个）</td></tr><tr class="off"><td><b>ASTS</b></td><td>不跟</td><td class="n">+131%</td><td class="n neg"><b>+35%</b></td><td class="n">-50%</td><td class="n">+37%</td><td class="n">-23%</td><td class="n">33%（40 个）</td></tr><tr class="off"><td><b>GOOG</b></td><td>不跟</td><td class="n">+13%</td><td class="n neg"><b>+22%</b></td><td class="n">+60%</td><td class="n">+66%</td><td class="n">+20%</td><td class="n">0%（40 个）</td></tr></tbody></table></div>
