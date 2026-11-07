@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>每周一收租</title>
+<meta property="og:type" content="website"><meta property="og:title" content="每周一收租：卖 covered call 跑赢一直拿着吗？"><meta property="og:description" content="两年回测加两段样本外：每周一卖 3% 外当周 covered call，和一直拿着、定投比。规则、本周价格、完整回测全公开。"><meta property="og:image" content="https://chokepointpt.github.io/cc-lab/og.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:url" content="https://chokepointpt.github.io/cc-lab/"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://chokepointpt.github.io/cc-lab/og.png">
+<meta name="description" content="每周一开盘卖当周 covered call 的简单规则，附本周行权价和最低挂单价。回测研究记录，不是投资建议。">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+:root{--bg:#f3f4f1;--surface:#fff;--ink:#141513;--ink2:#4f514c;--muted:#6b6e66;--line:#e2e4de;--accent:#1c5cab;--good:#087f08;--bad:#c03030;--chip:#eef3fb;
+ --sans:"IBM Plex Sans","PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,sans-serif;--mono:"IBM Plex Mono",ui-monospace,Menlo,monospace}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e0f0e;--surface:#191a18;--ink:#f0efec;--ink2:#c3c2b7;--muted:#8c8e86;--line:#2c2e2a;--accent:#86b6ef;--good:#4cc45a;--bad:#f27d7d;--chip:#1d2633;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0e0f0e;--surface:#191a18;--ink:#f0efec;--ink2:#c3c2b7;--muted:#8c8e86;--line:#2c2e2a;--accent:#86b6ef;--good:#4cc45a;--bad:#f27d7d;--chip:#1d2633;color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:15px;line-height:1.6;margin:0}
+.wrap{max-width:880px;margin:0 auto;padding-block:28px 48px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.top{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap}
+.top a{color:var(--accent);text-decoration:none;font-weight:600}
+h1{font-size:clamp(28px,6vw,44px);line-height:1.15;margin:22px 0 8px;text-wrap:balance;letter-spacing:-.01em}
+.lede{color:var(--ink2);max-width:62ch;margin:0 0 24px}
+h2{font-size:19px;margin:34px 0 12px}
+ol.rules{list-style:none;margin:0;padding:0;display:grid;gap:10px;counter-reset:r}
+ol.rules li{counter-increment:r;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px 14px 56px;position:relative}
+ol.rules li::before{content:counter(r);position:absolute;left:16px;top:13px;width:26px;height:26px;border-radius:50%;background:var(--ink);color:var(--bg);font:600 14px/26px var(--mono);text-align:center}
+ol.rules b{display:block;margin-bottom:2px}
+ol.rules span{color:var(--ink2);font-size:14px}
+.tw{overflow-x:auto;background:var(--surface);border:1px solid var(--line);border-radius:12px}
+table{border-collapse:collapse;width:100%;font-size:14px}
+th,td{padding:9px 12px;border-bottom:1px solid var(--line);text-align:left;white-space:nowrap}
+th{color:var(--muted);font-weight:500;font-size:12.5px}
+tr:last-child td{border-bottom:0}
+td.n{font-family:var(--mono);text-align:right} th.n{text-align:right}
+tr.off td{color:var(--muted)} tr.on .act{color:var(--good);font-weight:600}
+.pos{color:var(--good)} .neg{color:var(--bad)}
+.note{color:var(--muted);font-size:13px;margin:8px 0 0}
+.risk{background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--bad);border-radius:12px;padding:14px 18px}
+.risk ul{margin:6px 0 0;padding-left:18px;color:var(--ink2)}
+.chip{display:inline-block;background:var(--chip);color:var(--accent);border-radius:999px;padding:2px 10px;font-size:12.5px;font-weight:500}
+footer{margin-top:36px;color:var(--muted);font-size:12.5px}
+</style></head><body><div class="wrap">
+<div class="top"><span class="chip">COVERED CALL LAB · 简单版</span><a href="detail.html">看完整回测 →</a></div>
+<div class="risk" style="border-left-color:var(--accent);margin-top:18px"><b>11/01 更正。</b>这页之前写的收益（比如 KTOS +395%）用的历史权利金估法太乐观：它把今天的"隐含波动率 / 实际波动率"比例原样套到过去每一周，波动飙升的那些周权利金被高估。现在改成波动率一半向一年中位数回归，成交价按理论价的 0.8 倍。数字小了很多，11/06 晚上又扣掉了暴跌周期权偏贵的部分，能稳定赢的票一只都不剩（结论 44）。三种估法的结果都列在下面。要注意：我们离现价 10% 以内的真实成交只有 9 笔，按金额加权是理论价的 0.67 倍，比 0.8 低。还有，回测的权利金系数只用了 6 天真实期权报价校准，正好赶上财报和暴跌，换一种合理的校准做法，单只票一年窗口的胜率能从 0% 变到 78%（GOOG），所以哪只票能跟，等报价攒够几周再定（结论 42）。</div>
+<h1>每周卖 call，想跑赢一直拿着，比网上说的难。</h1>
+<p class="lede">我们回测了 6 只票。按保守一点的估法，主样本和更早的两段年份都同时赢过一直拿着和定投的，一只都没有。下面的执行规则（什么时候卖、行权价、挂单、要不要买回）在各种估法下都成立。</p>
+
+<h2>规则</h2>
+<ol class="rules">
+<li><b>回测里没有稳定赢过一直拿着的票。</b><span>卖 call 先当成降低持仓成本、收一点租的办法，别指望它跑赢一直拿着。CRWV、AAOI 主样本赢、更早年份不稳或没有数据，小仓位观察。ASTS、KTOS、AVAV、GOOG 回测里卖 call 输给一直拿着或定投，不做。</span></li>
+<li><b>周一开盘后卖，当周五到期。</b><span>行权价取开盘价往上 3% 的那一档。别等涨了再卖，回测里等涨更差（GOOG 例外，等涨了再卖反而好些）。</span></li>
+<li><b>挂限价单，不低于下表的"最低挂单"。</b><span>挂不上就这周不卖。用市价单卖在买价上，回测里的优势会全部送掉。</span></li>
+<li><b>卖完不管，拿到周五。</b><span>不提前买回，不止损。回测里"赚一半就买回"和"翻倍就止损"，除 GOOG 外每只都更差。</span></li>
+<li><b>被叫走了，就买回 100 股接着卖。</b><span>回测是按周五收盘价买回算的。等到周一开盘再买，会多一个周末跳空，可能更好也可能更差。</span></li>
+<li><b>AAOI、AVAV、GOOG 财报那周不卖。</b><span>最近两年财报后单日最大的两次涨幅：AAOI 57% 和 55%，AVAV 22% 和 19%，GOOG 10% 和 3%。回测里这几只财报周卖 call 比平常周差（结论 1）。其他票财报周照卖，但买价要高于这只票过去每次财报周同样几天的平均让出（被叫走少赚的部分）再加两成半余量（样本外这个估计平均偏低两成），历史上从没涨到过的行权价也按 21 只票的实际让出留一个底线（结论 46），不够就那周不卖。</span></li>
+</ol>
+
+<h2>本周（11/9 到 11/13）</h2>
+<div class="tw"><table><thead><tr><th>股票</th><th>本周</th><th class="n">11/6 收盘</th><th class="n">行权价</th><th class="n">11/6 报价 买 / 卖</th><th class="n">最低挂单</th><th>下次财报</th></tr></thead><tbody><tr class="off"><td><b>KTOS</b></td><td class="act">不卖：回测输</td><td class="n">35.10</td><td class="n">37C</td>
+<td class="n">0.10 / 1.10</td><td class="n">0.78</td><td>2/23</td></tr><tr class="off"><td><b>AVAV</b></td><td class="act">不卖：回测输</td><td class="n">112.76</td><td class="n">117C</td>
+<td class="n">0.75 / 5.40</td><td class="n">2.66</td><td>12/2</td></tr><tr class="off"><td><b>CRWV</b></td><td class="act">不卖：财报周报价不够</td><td class="n">46.40</td><td class="n">48C</td>
+<td class="n">4.15 / 4.30</td><td class="n">5.31</td><td>11/10</td></tr><tr class="off"><td><b>AAOI</b></td><td class="act">观察：小仓位</td><td class="n">50.13</td><td class="n">55C</td>
+<td class="n">1.90 / 2.20</td><td class="n">1.82</td><td>2/25</td></tr><tr class="off"><td><b>ASTS</b></td><td class="act">不卖：回测输</td><td class="n">32.33</td><td class="n">33.5C</td>
+<td class="n">2.46 / 2.68</td><td class="n">1.37</td><td>11/9</td></tr><tr class="off"><td><b>GOOG</b></td><td class="act">不卖：回测输</td><td class="n">283.93</td><td class="n">292.5C</td>
+<td class="n">2.33 / 2.47</td><td class="n">2.24</td><td>2/3</td></tr></tbody></table></div>
+<p class="note">行权价和最低挂单按 11/6 收盘价算。开盘价不一样的话，按开盘价重新取 3% 那一档，最低挂单按比例变。财报周的真实报价会比最低挂单高很多，正常。 CRWV 这周有财报：过去 6 次财报周同样几天，48C 平均让出加两成半余量 5.31/股，买价 4.15 不够，这周不卖。</p>
+
+<h2>为什么一只都不跟</h2>
+<div class="tw"><table><thead><tr><th>股票</th><th></th><th class="n">卖 call 乐观估法</th><th class="n">卖 call 基准</th><th class="n">卖 call 保守估法</th><th class="n">一直拿着</th><th class="n">每 4 周定投</th><th class="n">一年窗口里两样都赢</th></tr></thead><tbody><tr class="off"><td><b>KTOS</b></td><td>不跟</td><td class="n">+254%</td><td class="n neg"><b>+30%</b></td><td class="n">-116%</td><td class="n">+54%</td><td class="n">-24%</td><td class="n">38%（40 个）</td></tr><tr class="off"><td><b>AVAV</b></td><td>不跟</td><td class="n">+7%</td><td class="n neg"><b>-61%</b></td><td class="n">-110%</td><td class="n">-47%</td><td class="n">-42%</td><td class="n">28%（40 个）</td></tr><tr class="off"><td><b>CRWV</b></td><td>观察</td><td class="n">+67%</td><td class="n pos"><b>+204%</b></td><td class="n">+380%</td><td class="n">+21%</td><td class="n">-38%</td><td class="n">89%（9 个）</td></tr><tr class="off"><td><b>AAOI</b></td><td>观察</td><td class="n">+620%</td><td class="n pos"><b>+403%</b></td><td class="n">+206%</td><td class="n">+198%</td><td class="n">+55%</td><td class="n">25%（40 个）</td></tr><tr class="off"><td><b>ASTS</b></td><td>不跟</td><td class="n">+131%</td><td class="n neg"><b>+35%</b></td><td class="n">-50%</td><td class="n">+37%</td><td class="n">-23%</td><td class="n">33%（40 个）</td></tr><tr class="off"><td><b>GOOG</b></td><td>不跟</td><td class="n">+13%</td><td class="n neg"><b>+22%</b></td><td class="n">+60%</td><td class="n">+66%</td><td class="n">+20%</td><td class="n">0%（40 个）</td></tr></tbody></table></div>
+<p class="note">最近两年（2024-11 到 2026-11-06），同样本金，从本金算起，周一开盘卖 3% 外当周 call，成交价按模型价 0.8 倍。三种估法的区别只在怎么估历史上每一周的波动率：乐观 = 用当周 20 日波动率，基准 = 当周和一年中位数各一半，保守 = 只用一年中位数。真实情况多半在乐观和保守之间。"一年窗口"是从 2022-11 起每隔 4 周换一个起点、各跑一年，看基准估法下卖 call 同时赢过一直拿着和定投的比例。细节、样本外年份、敏感性都在<a href="detail.html" style="color:var(--accent)">完整回测</a>里。</p>
+
+<h2>其他热门票适不适合</h2>
+<div class="tw"><table><thead><tr><th>股票</th><th>结论</th><th class="n">卖 call 基准</th><th class="n">一直拿着</th><th class="n">定投</th><th class="n">一年窗口赢</th><th class="n">卖 call 保守估法</th></tr></thead><tbody><tr class="off"><td><b>TSLA</b></td><td class="act">一般</td><td class="n">+93%</td><td class="n">+46%</td><td class="n">+0%</td><td class="n">60%</td><td class="n">+98%</td></tr><tr class="off"><td><b>PLTR</b></td><td class="act">不适合</td><td class="n">+274%</td><td class="n">+290%</td><td class="n">+36%</td><td class="n">45%</td><td class="n">+266%</td></tr><tr class="off"><td><b>AMD</b></td><td class="act">不适合</td><td class="n">+166%</td><td class="n">+217%</td><td class="n">+148%</td><td class="n">0%</td><td class="n">+202%</td></tr><tr class="off"><td><b>RKLB</b></td><td class="act">不适合</td><td class="n">+105%</td><td class="n">+371%</td><td class="n">+40%</td><td class="n">0%</td><td class="n">-58%</td></tr><tr class="off"><td><b>AAPL</b></td><td class="act">不适合</td><td class="n">+51%</td><td class="n">+55%</td><td class="n">+37%</td><td class="n">35%</td><td class="n">+48%</td></tr><tr class="off"><td><b>NVDA</b></td><td class="act">不适合</td><td class="n">+32%</td><td class="n">+36%</td><td class="n">+13%</td><td class="n">45%</td><td class="n">+24%</td></tr><tr class="off"><td><b>MSFT</b></td><td class="act">不适合</td><td class="n">+22%</td><td class="n">+30%</td><td class="n">+20%</td><td class="n">12%</td><td class="n">+20%</td></tr><tr class="off"><td><b>AMZN</b></td><td class="act">不适合</td><td class="n">+12%</td><td class="n">+32%</td><td class="n">+15%</td><td class="n">28%</td><td class="n">+25%</td></tr><tr class="off"><td><b>MSTR</b></td><td class="act">不适合</td><td class="n">-24%</td><td class="n">-43%</td><td class="n">-36%</td><td class="n">15%</td><td class="n">-5%</td></tr><tr class="off"><td><b>META</b></td><td class="act">不适合</td><td class="n">-34%</td><td class="n">+8%</td><td class="n">-4%</td><td class="n">20%</td><td class="n">-50%</td></tr><tr class="off"><td><b>SOFI</b></td><td class="act">不适合</td><td class="n">-40%</td><td class="n">+49%</td><td class="n">-8%</td><td class="n">0%</td><td class="n">-7%</td></tr><tr class="off"><td><b>ORCL</b></td><td class="act">不适合</td><td class="n">-51%</td><td class="n">-32%</td><td class="n">-35%</td><td class="n">40%</td><td class="n">-38%</td></tr><tr class="off"><td><b>HOOD</b></td><td class="act">不适合</td><td class="n">-64%</td><td class="n">+241%</td><td class="n">+17%</td><td class="n">0%</td><td class="n">-173%</td></tr><tr class="off"><td><b>COIN</b></td><td class="act">不适合</td><td class="n">-67%</td><td class="n">-25%</td><td class="n">-39%</td><td class="n">0%</td><td class="n">-66%</td></tr><tr class="off"><td><b>ARM</b></td><td class="act">不适合</td><td class="n">-79%</td><td class="n">+25%</td><td class="n">+15%</td><td class="n">14%</td><td class="n">-119%</td></tr></tbody></table></div>
+<p class="note">同一套规则跑在 15 只热门股上，最近两年，0.8 倍成交。"适合"要同时满足三条：基准估法下赢过一直拿着和定投，40 个一年窗口里至少八成赢，保守估法下也赢。这几只没有做早年份的样本外检验，可信度比上面那张表低一档。</p>
+
+<h2>会亏在哪</h2>
+<div class="risk"><ul>
+<li>卖 call 不挡下跌，只封顶上涨。AVAV 两年里一直拿着亏了 47%，卖 call 亏得更多，61%。</li>
+<li>大涨会被封顶。AAOI 在 2022-11 到 2023-11 涨了 343%，卖 call 只有 +154%。AAOI 在 2023-11 到 2024-11 涨了 78%，卖 call 只有 +3%。</li>
+<li>被叫走在应税账户里算短期资本利得，要交税。</li>
+<li>回测里的权利金是用模型估的，不是历史成交价。这是研究记录，不是投资建议，盈亏自负。</li>
+</ul></div>
+
+<footer>数据到 2026-11-06，交易日收盘后自动更新。</footer>
+</div></body></html>
