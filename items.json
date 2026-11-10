@@ -664,5 +664,25 @@
    "deck": "This campus costs one-fifth as much to build as a US data center, the key saving is dropping the central chiller, and the hardest part to copy is where the power comes from.",
    "body": "## What happened\n\n- SemiAnalysis visited the Galaxy campus that Envision built on its own in Ulanqab.\n- The campus plans 800 MW of IT capacity. The first 120 MW phase was completed in one year. Its build cost is one-fifth of a US build.\n\n## Key numbers\n\n- **45℃**: Nvidia says Vera Rubin can cool with 45℃ water. No chiller-free setup is needed.\n- **4.3℃**: The annual average temperature here. Cold weather makes cooling easier.\n- **67%**: The share of green power at the campus.\n\n## How it works\n\nA central chiller is a large air conditioner. Its job is to cool the circulating water. Most US data centers still depend on it for their air-cooled equipment. This campus lets liquid cooling and air cooling share one water loop. It does not use a separate central chiller. Water at 45℃ is enough, so there is no need to cool it far below that.\n\nIn cold places, the main saving is in the air-cooling part.\n\n## In short\n\nThe biggest way to save money is to skip the air conditioning. In cold weather, with warm enough water, the site can cool itself using natural conditions. Other places may not have these conditions, but the method can still serve as a reference. The hardest part to copy is the 67% green power. Where the electricity comes from is the hardest part of this math to learn.\n\n## Why it matters\n\nPower and cooling are the most expensive parts of an AI data center. This project shows that a large AI data center in Ulanqab can cost one-fifth as much as one in the US. For people who follow AI infrastructure, where a site is built and what power it uses matter as much as which chips it runs."
   }
+ },
+ {
+  "link": "/ChokepointPT/status/2119809198280372623",
+  "text": "1260H名单是美国国防部依据国防授权法每年更新的。上榜后，国防相关的采购和合作都会受限。移除说明这个标签在收缩。对做美国客户的药企来说，标签往往意味着额外的合规审查，移除后这部分成本会降。名单本身不改变收入结构。订单有没有真的变，要看下一份年报的美国客户收入占比。",
+  "src": "药明康德被从美国1260H名单移除！ https://t.co/P68JkYVKtm",
+  "src_link": "/tuolaji2024/status/2119805683281584243",
+  "at": 1794291420.638707,
+  "why": "daily pick, 5529 views",
+  "n": 38,
+  "cover": "https://pbs.twimg.com/media/HWsQBnTaoAA1Use.jpg",
+  "page_url": "",
+  "title": "药明康德移出美国1260H名单，这张标签在收缩",
+  "deck": "上了这张名单，做美国生意的药企要多过一道审查，移除之后这部分成本会降，但订单有没有变，还要看年报。",
+  "tag": "商业",
+  "body": "## 发生了什么\n\n药明康德被从美国1260H名单里移除了。它是一家有美国客户的药企，这个变化对它的美国业务有直接影响。\n\n## 1260H名单是什么\n\n这份名单由美国国防部根据国防授权法更新，每年一次。上了名单，国防相关的采购和合作都会受到限制。\n\n- 上榜：国防相关的采购和合作受限\n- 移除：说明这个标签在收缩\n\n## 对药企意味着什么\n\n对做美国客户生意的药企来说，标签往往意味着额外的合规审查，也就是多一道检查，证明自己守规矩。移除之后，这部分成本会降下来。\n\n## 不变的是什么\n\n名单本身不改变公司的收入结构。订单有没有真的变，要看下一份年报里美国客户的收入占比。\n\n## 简单说\n\n可以把这个标签想成门口的一块牌子。牌子摘掉，进门要查的东西少了，但生意到底好不好，要看财报上的数字。",
+  "en": {
+   "title": "WuXi AppTec Comes Off the US 1260H List, and the Label Is Shrinking",
+   "deck": "Being on the list meant one more review for drugmakers doing business in the US. Removal lowers that cost, but whether orders changed is a question for the annual report.",
+   "body": "## What happened\n\nWuXi AppTec has been removed from the US 1260H list. It is a drugmaker with US customers, so the change has a direct effect on its US business.\n\n## What is the 1260H list\n\nThe US Department of Defense updates this list once a year under the National Defense Authorization Act. Companies on the list face limits on defense-related purchasing and cooperation.\n\n- Added: defense-related purchasing and cooperation are restricted\n- Removed: the label is shrinking\n\n## What it means for drugmakers\n\nFor drugmakers that do business with US customers, the label often means extra compliance reviews. That is one more check to prove they follow the rules. After removal, that cost comes down.\n\n## What has not changed\n\nThe list itself does not change the company's revenue structure. Whether orders have really changed will show in the share of revenue from US customers in the next annual report.\n\n## In short\n\nThink of the label as a sign at the door. Take the sign down, and there is less to check at the entrance. But whether the business is doing well depends on the numbers in the financial report."
+  }
  }
 ]
