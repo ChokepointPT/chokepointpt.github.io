@@ -704,5 +704,25 @@
    "deck": "Parts are not all priced the same, and once precision gets high enough, one small part can decide whether an entire production line can run.",
    "body": "## What happened\nSomeone on social media said a bearing is now worth nearly as much as a rickshaw. That sounds exaggerated. The logic behind it is real. A rickshaw is priced as a whole vehicle. A bearing is priced by precision.\n\n## How it works\nA bearing is the part that lets a wheel and an axle turn smoothly. Whether it is good depends on whether its size can be made extremely precise.\n- A rickshaw is sold by the vehicle. You are buying one whole machine.\n- A bearing is sold by precision. You are buying how exact it can be.\n\nThe higher the precision, the harder the part is to make. The cost goes up too.\n\n## Why it matters\nWhen precision is pushed to the extreme, one small part can hold up an entire production line. This spending is the hardest to cut, and the easiest to overlook. The part is small and out of sight. You only learn how important it is when something goes wrong.\n\n## In short\nWhen you judge what something is worth, do not look only at how big it is. The smallest and least noticed part is often the one that decides whether the whole thing can run."
   }
+ },
+ {
+  "link": "/ChokepointPT/status/2120348517847949778",
+  "text": "插件和脚本先别看作者，先看它要什么权限。电脑不在乎写的人是谁，它在乎的是读文件的权限。",
+  "src": "集美说Ds社区很多插件和脚本APP都是女孩子写的，我直接绷不住了，给电脑穿衣服的群体请别逗我笑！ https://t.co/yUekhBBewE",
+  "src_link": "/laoyan86/status/2120344259727409543",
+  "at": 1794464221.1376472,
+  "why": "daily pick, 13509 views",
+  "n": 40,
+  "cover": "https://pbs.twimg.com/media/HWyPqQybAAAvqZ8.jpg",
+  "page_url": "",
+  "title": "装插件前先看它要什么权限，别先猜是谁写的",
+  "deck": "有人调侃Ds社区的插件和脚本多是女孩子写的，但对电脑来说，作者是谁不重要，它能读什么文件才重要。",
+  "tag": "实操",
+  "body": "## 发生了什么\n集美在Ds社区看到一个现象：很多插件和脚本APP是女孩子写的，她笑到绷不住。这件事本身很轻松，但它引出一个更实用的问题：这些插件靠不靠谱，该怎么判断。\n\n## 先看什么\n- 插件和脚本能做什么，主要取决于它被允许读哪些文件。\n- 作者的名字、性别或名气，都不会改变电脑执行它时的行为。\n- 所以先看它要的权限，比先看作者更有用。\n\n## 能用来干什么\n装新插件或脚本之前，先问自己两件事：\n- 它要读取哪些文件？\n- 这些文件和它声称的功能对得上吗？\n\n如果一个小工具的功能只是排版文字，却要读你整个文档目录，就该多想一想。\n\n## 简单说\n电脑不在乎写的人是谁，它在乎的是读文件的权限。\n\n## 为什么重要\n大家习惯看作者、看人设，但真正决定风险大小的是权限。把注意力从\"谁写的\"转到\"它能碰什么\"，判断会更稳。",
+  "en": {
+   "title": "Check what a plugin wants access to before you guess who wrote it",
+   "deck": "Some people joke that most plugins and scripts in the Ds community are written by girls, but for a computer, the author does not matter. What matters is which files it can read.",
+   "body": "## What happened\nJimei saw a post in the Ds community. Many of the plugins and scripts there were written by girls, and she could not stop laughing. The joke itself is light. But it leads to a more useful question: how do you tell whether these plugins can be trusted?\n\n## What to check first\n- What a plugin or script can do depends mainly on which files it is allowed to read.\n- The author's name, gender, or reputation does not change how the computer runs it.\n- So checking the permissions it asks for is more useful than checking the author.\n\n## How to use this\nBefore you install a new plugin or script, ask yourself two questions:\n- Which files does it need to read?\n- Do those files match what it says it does?\n\nIf a small tool only formats text but asks to read your whole document folder, it is worth a closer look.\n\n## In short\nThe computer does not care who wrote the code. It cares about which files the code can read.\n\n## Why it matters\nMost people look at the author and the persona. But permissions decide how much risk there is. Shifting focus from \"who wrote it\" to \"what can it touch\" leads to steadier decisions."
+  }
  }
 ]
