@@ -724,5 +724,25 @@
    "deck": "Some people joke that most plugins and scripts in the Ds community are written by girls, but for a computer, the author does not matter. What matters is which files it can read.",
    "body": "## What happened\nJimei saw a post in the Ds community. Many of the plugins and scripts there were written by girls, and she could not stop laughing. The joke itself is light. But it leads to a more useful question: how do you tell whether these plugins can be trusted?\n\n## What to check first\n- What a plugin or script can do depends mainly on which files it is allowed to read.\n- The author's name, gender, or reputation does not change how the computer runs it.\n- So checking the permissions it asks for is more useful than checking the author.\n\n## How to use this\nBefore you install a new plugin or script, ask yourself two questions:\n- Which files does it need to read?\n- Do those files match what it says it does?\n\nIf a small tool only formats text but asks to read your whole document folder, it is worth a closer look.\n\n## In short\nThe computer does not care who wrote the code. It cares about which files the code can read.\n\n## Why it matters\nMost people look at the author and the persona. But permissions decide how much risk there is. Shifting focus from \"who wrote it\" to \"what can it touch\" leads to steadier decisions."
   }
+ },
+ {
+  "link": "/ChokepointPT/status/2120398069044773192",
+  "text": "这个空子的重点是那6个月的时钟，车是什么档次倒在其次。宽限期有起止日期，车在期内没挂正式牌照才合法，过期就得上牌。能决定合不合法的，是登记档案里的日期，路上警察看到的车不算数。",
+  "src": "在硅谷，乔布斯那辆银色奔驰SL55 AMG是出了名的怪车。它前后常年不挂车牌，在马路上大摇大摆开了好几年，警察却始终拿它没有办法。\n\n不少人以为这是亿万富豪的特权，其实乔布斯钻的是加州法律里的一个小空子。按当时的规定，新车上路后有最多6个月的宽限期，在这段时间里，不挂正式车牌是完全合法的； https://t.co/SrQG0BuvL9",
+  "src_link": "/chakmillion/status/2120394843000017026",
+  "at": 1794550620.796246,
+  "why": "daily pick, 9472 views",
+  "n": 41,
+  "cover": "https://pbs.twimg.com/media/HW0hCpwaAAAe85k.jpg",
+  "page_url": "",
+  "title": "新车上路有6个月宽限期，乔布斯的银色奔驰靠的就是这段时间",
+  "deck": "这件事看上去像特权，其实是规则里的一段时间差，说明在法律面前，日期往往比车本身更要紧。",
+  "tag": "深度",
+  "body": "## 发生了什么\n\n在硅谷，乔布斯那辆银色奔驰SL55 AMG是出了名的怪车。它前后常年不挂车牌，在马路上大摇大摆开了好几年，警察却始终拿它没有办法。\n\n很多人以为这是亿万富豪才有的特权。其实不是，乔布斯钻的是加州法律里的一个小空子。\n\n## 关键数字\n\n- 6个月：新车上路后，最多有这么长的宽限期\n- 宽限期内，不挂正式车牌是完全合法的\n- 好几年：这辆车常年不挂牌，警察一直没法管\n\n## 怎么做到的\n\n宽限期其实是一段缓冲时间，让刚买的新车可以先开上路，不用马上办完所有手续。\n\n这个空子的重点是那6个月的时钟，车是什么档次倒在其次。\n\n- 宽限期有起止日期\n- 车在期内没挂正式牌照才合法\n- 过了期限还没上牌，就得上牌\n\n能决定合不合法的，是登记档案里的日期。路上警察看到的车不算数。\n\n## 简单说\n\n这不是钱的特权，是时间的缝隙。宽限期有起止，合法与否看的是登记日期，不是路上的样子。\n\n## 为什么重要\n\n同一辆没挂牌的车，在宽限期内和过期后，法律身份完全不同。遇到类似的说法，可以先问几个问题：宽限期从哪天开始，到哪天结束，登记档案上记的是什么。规则里的日期，往往比肉眼看到的东西更有分量。",
+  "en": {
+   "title": "New cars get a 6-month grace period, and Jobs' silver Mercedes relied on that time.",
+   "deck": "This looks like a privilege, but it is really a timing gap built into the rules, and under the law, dates often matter more than the car itself.",
+   "body": "## What happened\n\nIn Silicon Valley, Jobs' silver Mercedes SL55 AMG was a famously strange car. For years, it had no license plate, front or back. It drove openly on the road for several years, and police never managed to stop it.\n\nMany people think this is a privilege only billionaires have. It is not. Jobs used a small loophole in California law.\n\n## Key numbers\n\n- 6 months: the longest grace period a new car can have after it goes on the road\n- Within the grace period, driving without a formal license plate is fully legal\n- Several years: the car went without a plate for years, and police could not do anything about it\n\n## How it worked\n\nA grace period is really a buffer. It lets a newly bought car go on the road first, without finishing all the paperwork right away.\n\nThe key to this loophole is the 6-month clock. What kind of car it is matters less.\n\n- The grace period has a start date and an end date.\n- The car is legal only if it has no formal plate during that period.\n- If the deadline passes without a plate, the car has to get one.\n\nWhat decides legality is the date in the registration record. What police see on the road does not count.\n\n## In short\n\nThis is not a privilege of money. It is a gap in time. The grace period has a start and an end. Legality depends on the registration date, not on how the car looks on the road.\n\n## Why it matters\n\nThe same car with no plate has a completely different legal status inside the grace period and after it expires. When you hear a similar claim, start by asking a few questions. When did the grace period start? When does it end? What does the registration record say? Dates in the rules often carry more weight than what you can see with your own eyes."
+  }
  }
 ]
