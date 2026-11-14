@@ -744,5 +744,25 @@
    "deck": "This looks like a privilege, but it is really a timing gap built into the rules, and under the law, dates often matter more than the car itself.",
    "body": "## What happened\n\nIn Silicon Valley, Jobs' silver Mercedes SL55 AMG was a famously strange car. For years, it had no license plate, front or back. It drove openly on the road for several years, and police never managed to stop it.\n\nMany people think this is a privilege only billionaires have. It is not. Jobs used a small loophole in California law.\n\n## Key numbers\n\n- 6 months: the longest grace period a new car can have after it goes on the road\n- Within the grace period, driving without a formal license plate is fully legal\n- Several years: the car went without a plate for years, and police could not do anything about it\n\n## How it worked\n\nA grace period is really a buffer. It lets a newly bought car go on the road first, without finishing all the paperwork right away.\n\nThe key to this loophole is the 6-month clock. What kind of car it is matters less.\n\n- The grace period has a start date and an end date.\n- The car is legal only if it has no formal plate during that period.\n- If the deadline passes without a plate, the car has to get one.\n\nWhat decides legality is the date in the registration record. What police see on the road does not count.\n\n## In short\n\nThis is not a privilege of money. It is a gap in time. The grace period has a start and an end. Legality depends on the registration date, not on how the car looks on the road.\n\n## Why it matters\n\nThe same car with no plate has a completely different legal status inside the grace period and after it expires. When you hear a similar claim, start by asking a few questions. When did the grace period start? When does it end? What does the registration record say? Dates in the rules often carry more weight than what you can see with your own eyes."
   }
+ },
+ {
+  "link": "/ChokepointPT/status/2119737271268282655",
+  "text": "跑一夜搜了上千个策略，回测里总能挑出一个好看的。试的次数一多，噪声就被包装成了收益。真正能考住它的是样本外的数据，还有实盘的手续费。",
+  "src": "跑一夜搜了上千个策略，回测里总能挑出一个好看的。试的次数一多，噪声就被包装成了收益。真正能考住它的是样本外的数据，还有实盘的手续费。",
+  "src_link": "",
+  "at": 1794637020.658529,
+  "why": "daily pick, 4235 views",
+  "n": 42,
+  "cover": "",
+  "page_url": "",
+  "title": "一夜跑了上千个策略，回测里最漂亮的那个多半是噪声",
+  "deck": "试的次数一多，运气就会被包装成本事，这也是为什么回测看着赚钱的策略，不一定能在真实市场里赚钱。",
+  "tag": "研究",
+  "body": "## 发生了什么\n有人让电脑跑了一整夜，搜了上千个交易策略。结果并不意外：在回测里，总能挑出一个看起来很好看的。\n\n## 关键数字\n- 上千个：策略试得越多，碰巧赚钱的那一个就越容易出现，它未必有真本事。\n\n## 怎么回事\n试的次数一多，纯粹的运气（也就是噪声）就会被当成真实的收益。这有点像扔很多次硬币，总会有一次连着猜中，但这不代表你会预测。\n\n## 怎么验真假\n- 样本外数据：拿策略没见过的新数据去测，经得起考验的才算数。\n- 实盘手续费：真正交易时要付的费用，会把账面上的利润吃掉一大块。\n\n## 简单说\n别只看回测里那条最漂亮的曲线。先问它试了多少次，再用没碰过的数据和真实成本去考它。\n\n## 为什么重要\n回测只是在历史数据上演练。能不能用到真钱上，要看它在新数据上还行不行，扣掉手续费之后还剩多少。",
+  "en": {
+   "title": "Thousands of Strategies Overnight: The Best-Looking Backtest Is Probably Noise",
+   "deck": "The more tries you make, the more luck gets dressed up as skill. That is why a strategy that looks profitable in a backtest may not make money in real markets.",
+   "body": "## What happened\nSomeone let a computer run all night and search through thousands of trading strategies. The result was no surprise. In a backtest, you can always find one that looks good.\n\n## Key numbers\n- Thousands: The more strategies you test, the more likely one of them makes money by chance. That one may have no real skill behind it.\n\n## How it works\nWhen you test many times, pure luck, also called noise, gets treated as real return. It is like flipping a coin many times. At some point you will get a streak of correct guesses. That does not mean you can predict anything.\n\n## How to check if it is real\n- Out-of-sample data: Test the strategy on new data it has never seen. Only strategies that hold up count.\n- Real trading fees: The fees you pay when you actually trade can eat a large share of the paper profit.\n\n## In short\nDo not just look at the prettiest curve in the backtest. First ask how many times it was tried. Then test it on data it has never touched, with real costs included.\n\n## Why it matters\nA backtest is only a rehearsal on past data. Whether it works with real money depends on how it does on new data, and how much is left after fees."
+  }
  }
 ]
