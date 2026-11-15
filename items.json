@@ -764,5 +764,25 @@
    "deck": "The more tries you make, the more luck gets dressed up as skill. That is why a strategy that looks profitable in a backtest may not make money in real markets.",
    "body": "## What happened\nSomeone let a computer run all night and search through thousands of trading strategies. The result was no surprise. In a backtest, you can always find one that looks good.\n\n## Key numbers\n- Thousands: The more strategies you test, the more likely one of them makes money by chance. That one may have no real skill behind it.\n\n## How it works\nWhen you test many times, pure luck, also called noise, gets treated as real return. It is like flipping a coin many times. At some point you will get a streak of correct guesses. That does not mean you can predict anything.\n\n## How to check if it is real\n- Out-of-sample data: Test the strategy on new data it has never seen. Only strategies that hold up count.\n- Real trading fees: The fees you pay when you actually trade can eat a large share of the paper profit.\n\n## In short\nDo not just look at the prettiest curve in the backtest. First ask how many times it was tried. Then test it on data it has never touched, with real costs included.\n\n## Why it matters\nA backtest is only a rehearsal on past data. Whether it works with real money depends on how it does on new data, and how much is left after fees."
   }
+ },
+ {
+  "link": "/ChokepointPT/status/2120320533581758620",
+  "text": "账面上的钱和真正流动的钱是两码事。20亿美元躺在地窖里，一分利息和股息都没有，财报只认后者。",
+  "src": "1937年被美国《时代》周刊评为全球首富的印度海得拉巴末代王公奥斯曼·阿里·汗，王宫地窖里堆着价值超20亿美元的金砖和宝石，院子草坪上甚至常年停着几十辆装满纯金金币、因为轮胎压爆懒得卸货而直接生锈长草的破卡车。 https://t.co/PVEQZnZoJa",
+  "src_link": "/chakmillion/status/2120311795768537167",
+  "at": 1794723420.326832,
+  "why": "daily pick, 4133 views",
+  "n": 43,
+  "cover": "https://pbs.twimg.com/media/HWxkIiSbEAAMy3z.jpg",
+  "page_url": "",
+  "title": "地窖里躺着20亿美元，却一分利息都没有",
+  "deck": "账面上的钱和真正能流动的钱不是一回事，这个老故事把两者分得很清楚。",
+  "tag": "深度",
+  "body": "## 发生了什么\n\n1937年，美国《时代》周刊把印度海得拉巴的末代王公奥斯曼·阿里·汗评为全球首富。他的王宫地窖里堆着价值超过20亿美元的金砖和宝石。\n\n院子草坪上还常年停着几十辆卡车，车上装满纯金金币。因为轮胎压爆了，懒得卸货，车就这么停着，生了锈，草都长了起来。\n\n## 关键数字\n\n- 1937年：他被评为全球首富的那一年\n- 超过20亿美元：地窖里金砖和宝石的价值\n- 几十辆：院子里装满纯金金币的卡车\n\n数字很大，但这些钱没有在干活。\n\n## 能用来干什么\n\n钱可以存进银行生利息，可以投进公司分股息，也可以拿去做生意赚钱。这些都是让钱\"动起来\"的方式。金砖和金币放在地窖和草坪上，什么都不会自动长出来。\n\n## 简单说\n\n账面上的钱和真正流动的钱是两码事。20亿美元躺在地窖里，一分利息和股息都没有，财报只认后者。\n\n## 为什么重要\n\n很多人看一个人或一家公司，只看它名下有多少资产。但资产如果不流动，就只是一堆沉睡的数字。那些停在草坪上的卡车看着很壮观，却不会带来一分钱。判断真正的价值，要看钱能不能带来收入。",
+  "en": {
+   "title": "$2 Billion Sits in the Cellar, Earning No Interest",
+   "deck": "Money on paper and money that actually moves are not the same thing, and this old story shows the difference clearly.",
+   "body": "## What Happened\n\nIn 1937, Time magazine named Osman Ali Khan, the last prince of Hyderabad in India, the richest man in the world. Gold bricks and jewels worth more than 2 billion US dollars sat in the cellar of his palace.\n\nDozens of trucks stayed parked in the courtyard lawn for years. They were loaded with pure gold coins. The tires had burst, and no one bothered to unload them. The trucks sat there, rusting, while grass grew up around them.\n\n## Key Numbers\n\n- 1937: the year he was named the richest man in the world\n- More than 2 billion US dollars: the value of the gold bricks and jewels in the cellar\n- Dozens: the number of trucks in the courtyard, loaded with pure gold coins\n\nThe numbers are huge, but none of this money was working.\n\n## What Money Can Do\n\nMoney can be deposited in a bank to earn interest. It can be invested in a company to receive dividends. It can be used in business to make more money. These are the ways money starts to move. Gold bricks and coins in a cellar and on a lawn do not grow anything on their own.\n\n## In short\n\nMoney on paper and money that moves are two different things. 2 billion US dollars sitting in a cellar earns no interest and pays no dividends. Financial reports only count the second kind.\n\n## Why It Matters\n\nMany people judge a person or a company only by how many assets it holds. But assets that do not move are just sleeping numbers. The trucks parked on the lawn look impressive, but they bring in no money. To judge real value, look at whether the money can produce income."
+  }
  }
 ]
