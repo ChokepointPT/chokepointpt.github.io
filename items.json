@@ -784,5 +784,25 @@
    "deck": "Money on paper and money that actually moves are not the same thing, and this old story shows the difference clearly.",
    "body": "## What Happened\n\nIn 1937, Time magazine named Osman Ali Khan, the last prince of Hyderabad in India, the richest man in the world. Gold bricks and jewels worth more than 2 billion US dollars sat in the cellar of his palace.\n\nDozens of trucks stayed parked in the courtyard lawn for years. They were loaded with pure gold coins. The tires had burst, and no one bothered to unload them. The trucks sat there, rusting, while grass grew up around them.\n\n## Key Numbers\n\n- 1937: the year he was named the richest man in the world\n- More than 2 billion US dollars: the value of the gold bricks and jewels in the cellar\n- Dozens: the number of trucks in the courtyard, loaded with pure gold coins\n\nThe numbers are huge, but none of this money was working.\n\n## What Money Can Do\n\nMoney can be deposited in a bank to earn interest. It can be invested in a company to receive dividends. It can be used in business to make more money. These are the ways money starts to move. Gold bricks and coins in a cellar and on a lawn do not grow anything on their own.\n\n## In short\n\nMoney on paper and money that moves are two different things. 2 billion US dollars sitting in a cellar earns no interest and pays no dividends. Financial reports only count the second kind.\n\n## Why It Matters\n\nMany people judge a person or a company only by how many assets it holds. But assets that do not move are just sleeping numbers. The trucks parked on the lawn look impressive, but they bring in no money. To judge real value, look at whether the money can produce income."
   }
+ },
+ {
+  "link": "/ChokepointPT/status/2119693690663055407",
+  "text": "100条刁钻提示词，原版拒答了99条。这个测试集是谁出的？比11.9GB更值得先看。",
+  "src": "来了个大的！\n\nHugging Face 上刚杀出一个核弹级无审查模型，直接把社区整不会了\n\nGoogle 官方 Gemma 4 31B 旗舰的破甲完全体，体积压缩到了 11.9GB，Apache 2.0 协议无需许可随便下\n\n它的测试结果极其残暴： \n\n· 拒答率断崖式暴跌：实测 100 个刁钻测试提示词，原版道德圣母直接拒答 99",
+  "src_link": "/mingzi206/status/2119676422101028915",
+  "at": 1794809820.3135092,
+  "why": "daily pick, 3891 views",
+  "n": 44,
+  "cover": "https://pbs.twimg.com/card_img/2122176073882595328/E9jJIZ1X?format=jpg&name=280x150",
+  "page_url": "",
+  "title": "Gemma 4 31B 破甲版：100 条刁钻提示词，原版拒答 99 条",
+  "deck": "谷歌官方模型的一个“无审查”版本在 Hugging Face 上流传开来，它的拒答能力被大幅削弱，这关系到每个人怎么看待 AI 的安全护栏。",
+  "tag": "发布",
+  "body": "## 发生了什么\n\nHugging Face 上出现了一个 Gemma 4 31B 的“破甲完全体”。Gemma 是谷歌官方的模型系列，31B 是它的旗舰型号。这个版本把原版的审查限制去掉了，所谓“破甲”，就是让模型不再轻易拒绝回答。\n\n## 关键数字\n\n- 体积压缩到 11.9GB\n- 采用 Apache 2.0 协议，下载无需许可\n- 实测 100 个刁钻测试提示词，原版拒答 99 个\n\n这些数字来自原帖。原帖没有说明测试集是谁出的，也没有给出独立的验证，所以先当作一种说法看待。\n\n## 能用来干什么\n\n对普通人来说，“拒答”就是模型说“这个我不能回答”。无审查版的意思是，这类拒绝少了，它会回答更多原版不回答的问题。\n\n- Apache 2.0 是一种比较宽松的开源协议，允许大家自由下载和使用\n- 体积变小，意味着普通电脑更容易装下它\n\n## 为什么重要\n\n大模型的安全审查通常是厂商花很大力气做的。如果一个官方模型的审查层能被拆掉，而模型又能随便下载，那么安全护栏就不能只靠模型本身。发布方和使用方都要更认真地考虑这件事。\n\n## 简单说\n\n谷歌的模型放出来了，有人把它的拒答能力拆掉了。100 个难题里原版拒了 99 个，这个数字是谁测的还不清楚，看数字之前先看出处。",
+  "en": {
+   "title": "Gemma 4 31B Unlocked Version: The Original Refused 99 of 100 Tricky Prompts",
+   "deck": "An \"uncensored\" version of Google's official model is circulating on Hugging Face, with its refusal ability greatly weakened, which affects how everyone thinks about AI safety guardrails.",
+   "body": "## What happened\n\nA fully unlocked version of Gemma 4 31B has appeared on Hugging Face. Gemma is Google's official model family. 31B is its flagship size. This version has removed the original's content limits. \"Unlocked\" here means the model no longer easily refuses to answer.\n\n## Key numbers\n\n- Size reduced to 11.9GB\n- Uses the Apache 2.0 license, so no license is needed to download\n- In tests on 100 tricky prompts, the original refused 99 of them\n\nThese numbers come from the original post. The post does not say who wrote the test set. It gives no independent check. So treat them as one claim for now.\n\n## What it can be used for\n\nFor most people, a \"refusal\" means the model says, \"I can't answer that.\" An uncensored version means fewer of these refusals. It will answer more questions that the original would not.\n\n- Apache 2.0 is a fairly loose open-source license. It lets people download and use the model freely.\n- A smaller file size means ordinary computers can more easily store it.\n\n## Why it matters\n\nSafety checks in large models are usually built by the vendor, at great effort. If the review layer of an official model can be removed, and the model can be downloaded freely, then safety guardrails cannot rely on the model alone. Both publishers and users need to think harder about this.\n\n## In short\n\nGoogle's model has been released, and someone has removed its refusal ability. In a set of 100 hard questions, the original refused 99. It is not yet clear who ran this test. Check the source before trusting the numbers."
+  }
  }
 ]
