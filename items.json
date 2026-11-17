@@ -804,5 +804,25 @@
    "deck": "An \"uncensored\" version of Google's official model is circulating on Hugging Face, with its refusal ability greatly weakened, which affects how everyone thinks about AI safety guardrails.",
    "body": "## What happened\n\nA fully unlocked version of Gemma 4 31B has appeared on Hugging Face. Gemma is Google's official model family. 31B is its flagship size. This version has removed the original's content limits. \"Unlocked\" here means the model no longer easily refuses to answer.\n\n## Key numbers\n\n- Size reduced to 11.9GB\n- Uses the Apache 2.0 license, so no license is needed to download\n- In tests on 100 tricky prompts, the original refused 99 of them\n\nThese numbers come from the original post. The post does not say who wrote the test set. It gives no independent check. So treat them as one claim for now.\n\n## What it can be used for\n\nFor most people, a \"refusal\" means the model says, \"I can't answer that.\" An uncensored version means fewer of these refusals. It will answer more questions that the original would not.\n\n- Apache 2.0 is a fairly loose open-source license. It lets people download and use the model freely.\n- A smaller file size means ordinary computers can more easily store it.\n\n## Why it matters\n\nSafety checks in large models are usually built by the vendor, at great effort. If the review layer of an official model can be removed, and the model can be downloaded freely, then safety guardrails cannot rely on the model alone. Both publishers and users need to think harder about this.\n\n## In short\n\nGoogle's model has been released, and someone has removed its refusal ability. In a set of 100 hard questions, the original refused 99. It is not yet clear who ran this test. Check the source before trusting the numbers."
   }
+ },
+ {
+  "link": "/ChokepointPT/status/2119061782925058253",
+  "text": "没看到官方说法前，别急着猜原因。最先受影响的是把API接进自家产品的下游，他们的收入会先断，过段时间财报才看得出来。",
+  "src": "我有点搞不懂，Open AI 为啥要步 Claude 的后尘，走上封号的不归之路，今天咋突然大规模封号@grok",
+  "src_link": "/weiyux2021/status/2119058553722032422",
+  "at": 1794896220.35744,
+  "why": "daily pick, 3632 views",
+  "n": 45,
+  "cover": "",
+  "page_url": "",
+  "title": "OpenAI 会不会也大规模封号？先别急着下结论",
+  "deck": "如果封号真的发生，最先受影响的是把 API 接进自家产品的下游，所以这件事值得盯着看。",
+  "tag": "商业",
+  "body": "## 发生了什么\n\n有人发帖问：OpenAI 是不是也要步 Claude 的后尘，走上封号这条路，还说今天突然大规模封号。帖子还 @ 了 Grok，像是想让它来解释。\n\n说白了，这是一条提问，不是官方公告。帖子里的“大规模封号”，目前也没有官方说法来证实。\n\n## 怎么回事\n\n封号就是平台把账号停掉，停掉以后这个账号就不能再用了。\n\nAPI 是让别的软件调用 AI 模型的接口。很多公司把它接进了自己的产品里，产品的收入也跟着它走。\n\n## 谁会先受影响\n\n如果封号真的发生，最先受影响的是把 API 接进自家产品的下游。他们的收入会先断，过段时间财报才看得出来。\n\n## 简单说\n\n没看到官方说法前，别急着猜原因。先等官方怎么讲，再看下游的实际变化。\n\n## 为什么重要\n\nAI 公司管账号和接口的尺度，直接影响靠它们吃饭的产品。一旦真出事，受影响的不只是一家公司。，The source texts contain no figures, so the headline and body have no numbers.",
+  "en": {
+   "title": "Will OpenAI also ban accounts at scale? Don't jump to conclusions yet",
+   "deck": "If bans really happen, the downstream businesses that plug the API into their own products will be hit first, so this is worth watching.",
+   "body": "## What happened\n\nA person posted a question. They asked whether OpenAI will also go down the same road as Claude and start banning accounts. They said that today there was a sudden mass ban. The post tagged Grok, as if to ask it to explain.\n\nPut simply, this is a question, not an official announcement. There is no official confirmation so far of the \"mass ban\" in the post.\n\n## How it works\n\nA ban means the platform shuts down an account. Once that happens, the account can no longer be used.\n\nThe API is an interface that lets other software call an AI model. Many companies have built it into their own products, and their revenue rises and falls with it.\n\n## Who gets hit first\n\nIf a ban really happens, the downstream businesses that plug the API into their own products are hit first. Their revenue would stop first, and financial reports would only show it some time later.\n\n## In short\n\nUntil there is an official statement, don't rush to guess the cause. Wait for the official explanation first, then watch what actually changes downstream.\n\n## Why it matters\n\nHow AI companies manage accounts and interfaces directly affects the products that depend on them. If something really goes wrong, more than one company is affected."
+  }
  }
 ]
