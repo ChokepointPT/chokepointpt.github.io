@@ -824,5 +824,25 @@
    "deck": "If bans really happen, the downstream businesses that plug the API into their own products will be hit first, so this is worth watching.",
    "body": "## What happened\n\nA person posted a question. They asked whether OpenAI will also go down the same road as Claude and start banning accounts. They said that today there was a sudden mass ban. The post tagged Grok, as if to ask it to explain.\n\nPut simply, this is a question, not an official announcement. There is no official confirmation so far of the \"mass ban\" in the post.\n\n## How it works\n\nA ban means the platform shuts down an account. Once that happens, the account can no longer be used.\n\nThe API is an interface that lets other software call an AI model. Many companies have built it into their own products, and their revenue rises and falls with it.\n\n## Who gets hit first\n\nIf a ban really happens, the downstream businesses that plug the API into their own products are hit first. Their revenue would stop first, and financial reports would only show it some time later.\n\n## In short\n\nUntil there is an official statement, don't rush to guess the cause. Wait for the official explanation first, then watch what actually changes downstream.\n\n## Why it matters\n\nHow AI companies manage accounts and interfaces directly affects the products that depend on them. If something really goes wrong, more than one company is affected."
   }
+ },
+ {
+  "link": "/ChokepointPT/status/2119388246170038481",
+  "text": "雷达一发射就暴露了。被动侦测不用发任何信号，谁先开机谁先被定位。电子战的门槛就是谁先出声。",
+  "src": "美军最近在霍尔木兹海峡，每晚都在逼伊朗的雷达兵做同一道送命题。\n\n雷达屏幕上突然跳出一个不明飞行器。\n雷达兵只有两个选择。\n第一，立刻开机，锁定它，按发射按钮。\n只要雷达一对外发射电磁波，哪怕只有几秒钟，美军盘旋在空中的电子侦察机就能抓到信号特征。 https://t.co/qAXva9yu9u",
+  "src_link": "/mubeitech/status/2119383428558889383",
+  "at": 1794982620.715795,
+  "why": "daily pick, 3185 views",
+  "n": 46,
+  "cover": "https://pbs.twimg.com/amplify_video_thumb/2119367941145640960/img/0vRgx0wQ23LH3gh8.jpg",
+  "page_url": "",
+  "title": "雷达开机几秒钟，就可能被对方找到",
+  "deck": "霍尔木兹海峡的这道送命题，说明了电子战里一条最朴素的规则：先出声的人先暴露。",
+  "tag": "深度",
+  "body": "## 发生了什么\n- 据来源报道，美军在霍尔木兹海峡，每晚都在逼伊朗的雷达兵做同一道送命题。\n- 场景是这样的：雷达屏幕上突然跳出一个不明飞行器，雷达兵只有两个选择。\n- 第一个选择，是立刻开机、锁定它、按下发射按钮。\n\n## 怎么做到的\n- 雷达靠对外发射电磁波，再接收回波来找目标。\n- 只要它一发射，哪怕只有几秒钟，盘旋在空中的电子侦察机就能抓到信号特征。\n- 这叫被动侦测。侦察机自己不发任何信号，只是听，所以不会暴露自己。\n\n## 能用来干什么\n- 对一方来说，侦察机在空中守着，就能把对方雷达的位置摸清。\n- 对雷达兵来说，开机就等于告诉对方自己在哪里。\n\n## 简单说\n- 雷达有点像夜里的手电筒，一打开，就成了黑暗里最显眼的那个。\n- 电子战的门槛，就是谁先出声。\n\n## 为什么重要\n- 这说明雷达不只要看得远，还要会闭嘴。\n- 雷达兵面对的是一道没有好选择的题，这也是现代电子对抗的基本难处。",
+  "en": {
+   "title": "Switch on a radar for a few seconds and the other side may find it",
+   "deck": "The deadly choice facing radar crews in the Strait of Hormuz shows a basic rule of electronic warfare: whoever makes a sound first gives themselves away.",
+   "body": "## What happened\n- According to sources, US forces in the Strait of Hormuz put Iranian radar crews through the same deadly choice every night.\n- Here is the scene. A radar screen suddenly shows an unidentified aircraft. The radar operator has only two choices.\n- The first choice is to switch the radar on at once, lock on to the aircraft, and press the fire button.\n\n## How it works\n- A radar sends out electromagnetic waves. It then receives the echoes to find targets.\n- Once it transmits, even for just a few seconds, aircraft circling overhead can pick up the signal's features.\n- This is called passive detection. The reconnaissance plane sends no signal of its own. It only listens, so it does not reveal itself.\n\n## What it can be used for\n- For one side, a reconnaissance plane that stays in the air can map where the other side's radars are.\n- For the radar operator, switching on is the same as telling the other side where they are.\n\n## In short\n- A radar is a bit like a flashlight at night. Once it is switched on, it becomes the most visible thing in the dark.\n- In electronic warfare, the threshold is who makes a sound first.\n\n## Why it matters\n- This shows that a radar must not only see far. It must also know when to stay quiet.\n- The radar operator faces a question with no good answer. That is the basic difficulty of modern electronic combat."
+  }
  }
 ]
