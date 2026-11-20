@@ -864,5 +864,25 @@
    "deck": "The key point of this story is not the stock's rise and fall. It is that the money and the house were committed before the result came in.",
    "body": "## What happened\n\nThe father-in-law said an old army buddy works at the CSRC. He said this buddy had revealed that a certain stock would definitely double after a restructuring next week. He put in two million himself. He then asked his son-in-law to go all in with him and borrow one million to join.\n\nThe son-in-law mortgaged his house that same day. He then transferred the one million.\n\nA week later, the stock hit limit-down and was delisted. The father-in-law was heartbroken. The son-in-law ended up comforting him.\n\n## Key numbers\n\n- Two million: the amount the father-in-law put in himself\n- One million: the amount the son-in-law borrowed, backed by his house\n- One week: the time from the transfer to the stock hitting limit-down and being delisted\n\n## How the money moved\n\nThe order here matters. The one million in cash went out first. The limit-down price came later. The money was already spent before the stock showed its result.\n\nLimit-down means the stock fell to the lowest price the exchange allows that day. Delisting means the stock is no longer traded on the exchange. The CSRC is the regulator that oversees the stock market.\n\nBecause the loan was secured by the house, the principal was tied to the property before the stock fell to zero. By the time the market settled, the house was already collateral.\n\n## In short\n\nThe most dangerous part of an \"insider tip\" is that it makes people think it is a shortcut. You think you are betting on one stock. In fact, you may be betting an entire house.\n\n## Why it matters\n\nThese stories follow a fixed pattern. Someone claims to have connections and inside information. They push you to add more money fast. They ask you to borrow against your assets. When you hear this, first ask where the information came from. Then ask whether the house is still yours if you lose."
   }
+ },
+ {
+  "link": "/ChokepointPT/status/2121057883336970293",
+  "text": "服务恢复后，一接流量又没响应了，多半是重新放量把后端压垮了。微软先限流，说明触发点还没找到。限流只是止血，证明不了根因。",
+  "src": "裁员裁到大动脉？微软多个在线服务，已宕机超 7 小时。包括 Outlook 邮箱、OneDrive 自动云备份、Office 365 在线办公等。\n\n虽然 1 小时前，微软官方声称修复了这些宕机，但又再度出现中断，他们也在寻找造成该现象的原因。 https://t.co/1SPLOEqBkj",
+  "src_link": "/_FORAB/status/2121049647724777583",
+  "at": 1795155420.4297512,
+  "why": "daily pick, 2731 views",
+  "n": 48,
+  "cover": "https://pbs.twimg.com/media/HW97DSDaAAA321T.jpg",
+  "page_url": "",
+  "title": "微软多个在线服务宕机超 7 小时，刚说修好又断了",
+  "deck": "邮箱、云备份和在线办公一起出问题，而且原因还没找到，对依赖这些工具的人来说不是小事。",
+  "tag": "深度",
+  "body": "## 发生了什么\n\n微软的多个在线服务出现宕机，时间超过 7 小时。受影响的包括 Outlook 邮箱、OneDrive 自动云备份，以及 Office 365 在线办公。\n\n大约 1 小时前，微软官方表示已经修复，但中断又再度出现。微软目前还在寻找造成这次问题的原因。\n\n## 关键数字\n\n- 超过 7 小时：这次宕机的持续时长\n- 1 小时前：微软宣布修复的时间点，之后故障又出现\n\n## 为什么重要\n\n先说几个词。宕机就是服务暂时用不了。自动云备份出问题，意味着文件可能没有按时同步到云端。\n\n更要注意的是，\"修好了\"和\"真的好了\"不是一回事。故障又出现，说明还没找到根本原因，之前的修复可能只是暂时压住了问题。\n\n## 简单说\n\n原文的标题把这次故障和裁员放在一起提问，但文中没有给出两者之间的直接证据。能确定的是：多项常用服务同时中断，而且原因还没查清。",
+  "en": {
+   "title": "Microsoft Online Services Down for Over 7 Hours, Failed Again After Fix Claim",
+   "deck": "Email, cloud backup, and online office tools failed together, and the cause is still unknown, which is no small matter for anyone who relies on them.",
+   "body": "## What happened\n\nSeveral Microsoft online services went down for more than 7 hours. The affected services include Outlook email, OneDrive automatic cloud backup, and Office 365 online office tools.\n\nAbout 1 hour ago, Microsoft said it had fixed the problem, but the outage came back. Microsoft is still looking for the cause.\n\n## Key numbers\n\n- Over 7 hours: the length of this outage\n- 1 hour ago: the time Microsoft announced a fix. The outage came back after that.\n\n## Why it matters\n\nFirst, a few terms. An outage means a service is temporarily unavailable. When automatic cloud backup fails, files may not sync to the cloud on time.\n\nBut pay closer attention to this. \"Fixed\" and \"really fixed\" are not the same thing. The outage came back, which means the root cause has not been found yet. The earlier fix may have only held the problem down for a while.\n\n## In short\n\nThe original title asked about this outage and layoffs together, but the article gives no direct evidence linking the two. What is clear: several common services went down at the same time, and the cause has not been found yet."
+  }
  }
 ]
