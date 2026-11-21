@@ -884,5 +884,25 @@
    "deck": "Email, cloud backup, and online office tools failed together, and the cause is still unknown, which is no small matter for anyone who relies on them.",
    "body": "## What happened\n\nSeveral Microsoft online services went down for more than 7 hours. The affected services include Outlook email, OneDrive automatic cloud backup, and Office 365 online office tools.\n\nAbout 1 hour ago, Microsoft said it had fixed the problem, but the outage came back. Microsoft is still looking for the cause.\n\n## Key numbers\n\n- Over 7 hours: the length of this outage\n- 1 hour ago: the time Microsoft announced a fix. The outage came back after that.\n\n## Why it matters\n\nFirst, a few terms. An outage means a service is temporarily unavailable. When automatic cloud backup fails, files may not sync to the cloud on time.\n\nBut pay closer attention to this. \"Fixed\" and \"really fixed\" are not the same thing. The outage came back, which means the root cause has not been found yet. The earlier fix may have only held the problem down for a while.\n\n## In short\n\nThe original title asked about this outage and layoffs together, but the article gives no direct evidence linking the two. What is clear: several common services went down at the same time, and the cause has not been found yet."
   }
+ },
+ {
+  "link": "/ChokepointPT/status/2120401835324559402",
+  "text": "提价函还没发，渠道价先动了。最先能对上账的是渠道报价。美光上季毛利率86.8%，要等下个财报才看得见，渠道已经先动了。",
+  "src": "关于存储，存储又在酝酿新一轮涨价。\n\n多位存储行业人士向记者透露，部分头部企业已向渠道商口头告知企业级颗粒的涨价意向，提价函尚未正式下发，但渠道端的价格已经先动了起来。",
+  "src_link": "/tuolaji2024/status/2120393004200681661",
+  "at": 1795241820.3035462,
+  "why": "daily pick, 2512 views",
+  "n": 49,
+  "cover": "",
+  "page_url": "",
+  "title": "美光毛利率86.8%，提价函还没发，渠道价格先动了",
+  "deck": "这轮存储涨价的第一个信号出现在渠道报价上，财报要等下个财报期才看得见。",
+  "tag": "商业",
+  "body": "## 发生了什么\n- 存储行业又在酝酿新一轮涨价。\n- 多位行业人士透露，部分头部企业已经口头告诉渠道商，企业级颗粒要涨价。\n- 正式的提价函还没有下发，但渠道端的价格已经先动了起来。\n\n## 关键数字\n- 美光上季的毛利率是86.8%。\n- 毛利率就是卖出的东西扣掉成本后，剩下的部分占卖价的比例，比例越高，说明赚得越厚。\n- 这是上季的成绩，涨价对利润的影响要等下个财报才看得见。\n\n## 为什么渠道先动\n- 渠道商是夹在芯片厂和下游买家中间的分销环节，手里握着实际的报价单。\n- 厂家口头通知后，渠道商会先调整报价，所以最先能对上账的是这些报价。\n- 函件还没发出，价格已经在走，等正式通知下来时，市场其实早就开始反应了。\n\n## 简单说\n- 提价函还没发，价格先动了。\n- 想判断存储涨不涨，先看渠道报价，比等财报更早。\n\n## 为什么重要\n- 企业级颗粒是给服务器用的存储芯片，涨价会顺着产业链一路往下传。\n- 美光的毛利率本来就很高，下一份财报会告诉我们这轮涨价有没有真正体现在利润里。",
+  "en": {
+   "title": "Micron's gross margin is 86.8%. The price hike letter isn't out yet, but channel prices moved first.",
+   "deck": "The first sign of this memory price rise shows up in channel quotes. Earnings won't show it until a later reporting period.",
+   "body": "## What happened\n- The memory chip industry is preparing another round of price increases.\n- Several industry insiders say some leading companies have told channel distributors verbally that enterprise-grade chips will go up in price.\n- The formal price hike letter has not been issued yet, but channel prices have already started to move.\n\n## Key numbers\n- Micron's gross margin last quarter was 86.8%.\n- Gross margin is the share of the selling price that remains after subtracting cost. The higher the share, the thicker the profit.\n- This is last quarter's result. The effect of price increases on profit will only show up in the next earnings report.\n\n## Why channel prices moved first\n- Channel distributors are the sales layer between chipmakers and downstream buyers. They hold the actual price quotes.\n- After chipmakers give verbal notice, distributors adjust their quotes first. So the first figures you can check against real records are these quotes.\n- The letter has not gone out, but prices are already moving. By the time the formal notice arrives, the market will have already started reacting.\n\n## In short\n- The price hike letter is not out yet, but prices have moved.\n- To judge whether memory prices are rising, watch channel quotes first. That comes earlier than waiting for earnings.\n\n## Why it matters\n- Enterprise-grade chips are memory chips used in servers. Price increases will pass down the supply chain.\n- Micron's gross margin is already very high. The next earnings report will show whether this round of price increases actually shows up in profit."
+  }
  }
 ]
