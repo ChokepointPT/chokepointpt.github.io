@@ -904,5 +904,21 @@
    "deck": "The first sign of this memory price rise shows up in channel quotes. Earnings won't show it until a later reporting period.",
    "body": "## What happened\n- The memory chip industry is preparing another round of price increases.\n- Several industry insiders say some leading companies have told channel distributors verbally that enterprise-grade chips will go up in price.\n- The formal price hike letter has not been issued yet, but channel prices have already started to move.\n\n## Key numbers\n- Micron's gross margin last quarter was 86.8%.\n- Gross margin is the share of the selling price that remains after subtracting cost. The higher the share, the thicker the profit.\n- This is last quarter's result. The effect of price increases on profit will only show up in the next earnings report.\n\n## Why channel prices moved first\n- Channel distributors are the sales layer between chipmakers and downstream buyers. They hold the actual price quotes.\n- After chipmakers give verbal notice, distributors adjust their quotes first. So the first figures you can check against real records are these quotes.\n- The letter has not gone out, but prices are already moving. By the time the formal notice arrives, the market will have already started reacting.\n\n## In short\n- The price hike letter is not out yet, but prices have moved.\n- To judge whether memory prices are rising, watch channel quotes first. That comes earlier than waiting for earnings.\n\n## Why it matters\n- Enterprise-grade chips are memory chips used in servers. Price increases will pass down the supply chain.\n- Micron's gross margin is already very high. The next earnings report will show whether this round of price increases actually shows up in profit."
   }
+ },
+ {
+  "link": "/ChokepointPT/status/2120133179772223966",
+  "text": "帖子里没有2000这个数，只有2027年底前至少新增1000万支的产能上限，剩下的要自己算。我看的是他们已经提前下单锁定关键物料，物料到位了，大批量交付才有底气。新产能分到嘉善、马来西亚、墨西哥和美国四地。多地建线通常比扩一条线慢，卡点多在认证和爬坡。这些订单的钱会先流向上游的芯片和材料。",
+  "src": "剑桥科技：拟于2027年底前将高速光模块产品的年产能再扩充至少1000万支，新增产能分配至中国嘉善、马来西亚、墨西哥及美国，以满足客户对800G、1.6T及NPO产品的预期需求。目前公司在手订单充足，已对多项关键物料提前下单锁定产能，为2027年的大批量交付做好准备。\n\n所以明年 meta2000",
+  "src_link": "/tuolaji2024/status/2120130118081462475",
+  "at": 1795328220.4548988,
+  "why": "daily pick, 2482 views",
+  "n": 50,
+  "cover": "",
+  "page_url": "",
+  "title": "剑桥科技计划在2027年底前再加至少1000万支高速光模块年产能",
+  "deck": "光模块是数据中心里搬运数据的关键零件，这次扩产不只是口头计划，公司已经提前下单锁定关键物料，说明大批量交付有了实际准备。",
+  "tag": "商业",
+  "body": "## 发生了什么\n\n剑桥科技表示，计划在2027年底前，把高速光模块的年产能再扩充至少1000万支。新增产能会分配到中国嘉善、马来西亚、墨西哥和美国四个地方。\n\n公司说，目前手里的订单很充足，客户对800G、1.6T和NPO这几类产品的需求预期也比较高，所以要提前把产能准备好。\n\n## 关键数字\n\n- 至少1000万支：2027年底前新增的年产能下限\n- 四地：嘉善、马来西亚、墨西哥、美国\n- 800G、1.6T：两种高速光模块的规格，数字越大，单位时间能传输的数据越多\n\n## 怎么做到的\n\n光模块要扩产，光有厂房和机器不够，关键物料得先到位。剑桥科技已经对多项关键物料提前下单锁定产能，等于先把原料备好，这样到了2027年，才有底气做大批量交付。\n\n多地建线通常比在原有基础上多开一条线慢，常见卡点在认证和爬坡。认证就是客户和标准要求的测试检验，爬坡则是新产线从小批量慢慢提到稳定产量的过程。\n\n## 为什么重要\n\n这件事说明订单已经进入备料阶段，不只是停留在计划里。而且这些订单的钱会先流向上游的芯片和材料，所以产业链上游也会跟着受益。\n\n对普通读者来说，可以把它看成一个信号：下游的需求正在往上游传导，光模块这类零件能不能按时、按量供上，是接下来要盯的事。\n\n## 简单说\n\n剑桥科技说要在2027年底前多做至少1000万支高速光模块，还提前把关键原料买好，并且在四个地方同时布局。真正能不能做到，要看认证和爬坡能不能跟上。",
+  "en_tries": 1
  }
 ]
