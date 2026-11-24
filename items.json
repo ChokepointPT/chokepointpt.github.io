@@ -920,5 +920,25 @@
   "tag": "商业",
   "body": "## 发生了什么\n\n剑桥科技表示，计划在2027年底前，把高速光模块的年产能再扩充至少1000万支。新增产能会分配到中国嘉善、马来西亚、墨西哥和美国四个地方。\n\n公司说，目前手里的订单很充足，客户对800G、1.6T和NPO这几类产品的需求预期也比较高，所以要提前把产能准备好。\n\n## 关键数字\n\n- 至少1000万支：2027年底前新增的年产能下限\n- 四地：嘉善、马来西亚、墨西哥、美国\n- 800G、1.6T：两种高速光模块的规格，数字越大，单位时间能传输的数据越多\n\n## 怎么做到的\n\n光模块要扩产，光有厂房和机器不够，关键物料得先到位。剑桥科技已经对多项关键物料提前下单锁定产能，等于先把原料备好，这样到了2027年，才有底气做大批量交付。\n\n多地建线通常比在原有基础上多开一条线慢，常见卡点在认证和爬坡。认证就是客户和标准要求的测试检验，爬坡则是新产线从小批量慢慢提到稳定产量的过程。\n\n## 为什么重要\n\n这件事说明订单已经进入备料阶段，不只是停留在计划里。而且这些订单的钱会先流向上游的芯片和材料，所以产业链上游也会跟着受益。\n\n对普通读者来说，可以把它看成一个信号：下游的需求正在往上游传导，光模块这类零件能不能按时、按量供上，是接下来要盯的事。\n\n## 简单说\n\n剑桥科技说要在2027年底前多做至少1000万支高速光模块，还提前把关键原料买好，并且在四个地方同时布局。真正能不能做到，要看认证和爬坡能不能跟上。",
   "en_tries": 3
+ },
+ {
+  "link": "/ChokepointPT/status/2120546973631865189",
+  "text": "团队缩编砍掉的是人力成本。已经签的GPU和电力合同照样要付。这笔钱最后还是会落到芯片、HBM和电力上。",
+  "src": "真服了，一回家就看到腾讯混元的哥们在群里聊大裁员😭\n\n腾讯只是第一个，接下来向我们走来的是.... https://t.co/zKh1oKPFcP",
+  "src_link": "/MaxForAI/status/2120543479550083273",
+  "at": 1795501020.368507,
+  "why": "daily pick, 2432 views",
+  "n": 51,
+  "cover": "https://pbs.twimg.com/media/HW2u7VIaMAASeEf.png",
+  "page_url": "",
+  "title": "人力省下了，合同里的钱一分没少",
+  "deck": "大厂裁员省下的主要是人工，真正烧钱的芯片、HBM和电力，合同签了就得照付。",
+  "tag": "商业",
+  "body": "## 发生了什么\n\n一条推文说，腾讯混元团队的人在群里聊起了大裁员，还暗示腾讯只是第一个，后面可能还有别家。推文链接指向的页面是空的，所以目前只有这些说法，没有官方的详细消息。\n\n## 钱到底花在哪\n\n很多人以为裁了人，成本就降下来了。但裁员省下的只是人力成本。公司已经签好的GPU（跑AI用的显卡芯片）和电力合同，不会因为缩编就取消，照样要付。\n\n## 简单说\n\n这笔钱最后还是会落到芯片、HBM和电力上。HBM是贴在AI芯片旁边的高速内存，芯片算得再快，数据送不过来也跑不起来，所以它也是烧钱的一环。\n\n## 为什么重要\n\n裁员看着省钱，其实只砍掉了一部分开支。想看清一家AI公司的真实成本，要看它签了多少算力和电力合同，而不只是看裁了多少人。",
+  "en": {
+   "title": "Layoffs cut payroll, but not a cent of contract spending",
+   "deck": "Layoffs at big companies mainly save labor. The chips, HBM and power that burn the most cash are paid under contracts already signed.",
+   "body": "## What happened\n\nA tweet said staff on Tencent's Hunyuan team talked about big layoffs in a group chat. It also hinted that Tencent is only the first, and that other companies may follow. The page the tweet links to is empty. So for now there are only these claims, and no official details.\n\n## Where the money really goes\n\nMany people think that cutting staff lowers costs. But layoffs only save labor costs. GPUs (graphics chips used to run AI) and power contracts a company has already signed are not canceled when the team shrinks. The company still has to pay them.\n\n## In short\n\nThe money still ends up in chips, HBM and power. HBM is high-speed memory placed next to AI chips. A chip can compute very fast, but if data cannot reach it in time, it cannot run. So HBM is also one of the costs that burns money.\n\n## Why it matters\n\nLayoffs look like savings, but they only cut part of the spending. To see the real cost of an AI company, look at how much compute and power it has signed contracts for, not just how many people it cut."
+  }
  }
 ]
