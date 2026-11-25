@@ -940,5 +940,25 @@
    "deck": "Layoffs at big companies mainly save labor. The chips, HBM and power that burn the most cash are paid under contracts already signed.",
    "body": "## What happened\n\nA tweet said staff on Tencent's Hunyuan team talked about big layoffs in a group chat. It also hinted that Tencent is only the first, and that other companies may follow. The page the tweet links to is empty. So for now there are only these claims, and no official details.\n\n## Where the money really goes\n\nMany people think that cutting staff lowers costs. But layoffs only save labor costs. GPUs (graphics chips used to run AI) and power contracts a company has already signed are not canceled when the team shrinks. The company still has to pay them.\n\n## In short\n\nThe money still ends up in chips, HBM and power. HBM is high-speed memory placed next to AI chips. A chip can compute very fast, but if data cannot reach it in time, it cannot run. So HBM is also one of the costs that burns money.\n\n## Why it matters\n\nLayoffs look like savings, but they only cut part of the spending. To see the real cost of an AI company, look at how much compute and power it has signed contracts for, not just how many people it cut."
   }
+ },
+ {
+  "link": "/ChokepointPT/status/2118668911772148098",
+  "text": "稳市托撑的是价格和流动性，订单它管不着。成交和ETF申赎先动，利润要过几个季度才进财报，所以我先看资金流，等财报来验证。",
+  "src": "国常会李强，完善资本市场稳市机制，增强股市内在稳定性，促进资本市场平稳健康发展！\n\n要动真格的了！",
+  "src_link": "/tuolaji2024/status/2118665922357698674",
+  "at": 1795587420.339914,
+  "why": "daily pick, 2428 views",
+  "n": 52,
+  "cover": "",
+  "page_url": "",
+  "title": "国常会提出完善稳市机制，股市托底要动真格了",
+  "deck": "政策的重点是让股市自己变得更稳，这关系到你的钱在市场里进出是否踏实。",
+  "tag": "商业",
+  "body": "## 发生了什么\n\n国常会的消息里提到了李强，内容很直接：完善资本市场稳市机制，增强股市内在稳定性，促进资本市场平稳健康发展。原文还加了一句“要动真格的了”，意思是这次不只是口头表态。\n\n## 关键数字\n\n这条消息里一个数字都没有，没有金额，没有比例，也没有时间表。所以现在能确定的是方向，力度还看不出来。读到这种消息，先别急着判断涨跌，等后面有具体动作再说。\n\n## 怎么做到的\n\n原文没有写具体用什么工具，所以只能讲一般思路。稳市机制通常是在股市剧烈波动时，托住价格、保证市场有足够的成交和承接，让市场不至于单边乱跌。它能稳住的是价格和流动性，但管不着每一笔具体的买卖订单。\n\n## 简单说\n\n- 政策方向是稳住股市，让它自己变得更稳\n- 目前只有方向，没有数字和时间表\n- 成交和ETF申赎会先有反应，利润要过几个季度才进财报\n\n## 为什么重要\n\n托底一旦真的落地，影响的是市场情绪和资金进出，这些会先反映在数据里。但利润要过很久才会体现在上市公司的财报上。所以比较实际的读法是：先看资金流有没有变化，等财报再来验证。这是我的看法。",
+  "en": {
+   "title": "State Council Calls for Stronger Market Stabilizers, and the Stock Market Backstop Is Getting Serious",
+   "deck": "The focus is on making the stock market more stable from within. That matters for whether your money feels safe moving in and out of the market.",
+   "body": "## What happened\n\nNews from the State Council executive meeting mentioned Li Qiang. The message was direct. Improve the stabilization mechanism for capital markets, strengthen the stock market's own stability, and promote steady and healthy development of capital markets. The original text also added the phrase \"it is time to get serious.\" That means this is more than words.\n\n## Key numbers\n\nThis news has no numbers. There are no amounts, no percentages, and no timeline. The direction is clear, but the size of the effort is not. When you read news like this, don't rush to call the market up or down. Wait for specific actions first.\n\n## How it works\n\nThe original text does not say which tools will be used, so only the general idea can be described. A stabilization mechanism usually works like this. When the stock market swings sharply, it supports prices and makes sure there is enough trading and buying interest to absorb selling. That helps the market avoid a one-way drop. It can steady prices and liquidity. It cannot control every single buy or sell order.\n\n## In short\n\n- The policy aims to make the stock market more stable from within\n- For now, there is only a direction, with no numbers or timeline\n- Trading volume and ETF creations and redemptions will react first. Profits take several quarters to show up in earnings reports.\n\n## Why it matters\n\nIf the support takes effect, the main impact is on market sentiment and fund flows. These show up in the data first. But profits take a long time to appear in listed companies' earnings reports. So a more practical reading is to watch whether fund flows change first, then check the earnings reports to confirm. This is my view."
+  }
  }
 ]
