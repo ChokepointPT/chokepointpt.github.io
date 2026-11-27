@@ -980,5 +980,25 @@
    "deck": "Some say the national team has started to act, but the order book after the open is messy. ETF shares are published every day, which makes them easier to check.",
    "body": "## What happened\nAn opinion article says the national team made its first move. It argues that all price action after 9:30 is the market acting on its own. Many people see it as a chance to grab a bargain. Its warning is that watching price moves alone makes it hard to tell whether the national team has really entered. The article gives no specific share numbers. This piece covers a way to check instead.\n\n## Key numbers\nThe only specific time in the article is 9:30. The other key point is that ETF share data is published every day. You don't have to wait. Check it once a day to compare.\n\n## How it works\nAn ETF can be thought of as a fund that packages a basket of stocks. Its share count rises or falls as money comes in or goes out through subscriptions and redemptions. More shares means new money came in. Fewer shares means money left. The order book after the open changes every second. With so many buyers and sellers, it is hard to tell who is who. Share changes show the net flow of money, so the signal is cleaner.\n\n## What you can use it for\nIf you want to check whether the national team has entered, look at the change in ETF shares once a day. Don't follow the mood of the order book after 9:30. The order book shows momentary activity. Share changes are closer to the real direction of money.\n\n## Why it matters\nSome people go by feel when they read the market. Others look at public data. Knowing where to find evidence makes you less likely to be pulled along by a line like \"a bottom-fishing chance.\""
   }
+ },
+ {
+  "link": "/ChokepointPT/status/2115377074135323015",
+  "text": "持股市值是用期末股价算的。前两名都是光模块股，股价一涨市值就跟着涨，这不一定代表加仓。",
+  "src": "持股市值是用期末股价算的。前两名都是光模块股，股价一涨市值就跟着涨，这不一定代表加仓。",
+  "src_link": "",
+  "at": 1795760221.5413508,
+  "why": "daily pick, 2206 views",
+  "n": 54,
+  "cover": "",
+  "page_url": "",
+  "title": "市值涨了不等于在加仓，前两名都是光模块股",
+  "deck": "看到持仓市值变大别急着下结论，它很可能只是股价涨了，买入动作并没有变多。",
+  "tag": "深度",
+  "body": "## 发生了什么\n这份持仓统计里，市值是按期末那天的股价算的。排在前两名的，都是光模块股。\n\n光模块是数据中心里负责光信号和电信号互相转换的零件，属于比较热门的一类股票。\n\n## 关键数字\n这段材料没有给出具体金额或股数，关键在两点：市值用的是期末股价，前两名都是光模块股。\n\n## 怎么做到的\n市值就是股数乘以股价。股价一涨，即使股数没有变，市值也会跟着涨。所以市值变大，可能只是价格上去了，不代表你真的多买了。\n\n## 简单说\n数字变大，不等于动作变多。想判断有没有加仓，要看股数有没有增加，光看市值是不够的。",
+  "en": {
+   "title": "Rising Market Value Does Not Mean Adding. The Top Two Are Optical Module Stocks",
+   "deck": "Do not jump to conclusions when a position's market value gets bigger. It most likely means the share price rose, not that buying increased.",
+   "body": "## What Happened\nIn this holdings report, market value is based on the share price on the period-end date. The top two positions are both optical module stocks.\n\nOptical modules are components in data centers that convert between optical signals and electrical signals. They are a fairly popular type of stock.\n\n## Key Numbers\nThis material does not give specific dollar amounts or share counts. Two points matter most. Market value uses the period-end share price. The top two holdings are both optical module stocks.\n\n## How It Works\nMarket value is the number of shares times the share price. When the share price rises, market value rises too, even if the number of shares stays the same. So a higher market value may only mean the price went up. It does not mean you actually bought more.\n\n## In Short\nA bigger number does not mean more buying. To tell whether someone added to a position, check whether the share count went up. Market value alone is not enough."
+  }
  }
 ]
