@@ -1000,5 +1000,21 @@
    "deck": "Do not jump to conclusions when a position's market value gets bigger. It most likely means the share price rose, not that buying increased.",
    "body": "## What Happened\nIn this holdings report, market value is based on the share price on the period-end date. The top two positions are both optical module stocks.\n\nOptical modules are components in data centers that convert between optical signals and electrical signals. They are a fairly popular type of stock.\n\n## Key Numbers\nThis material does not give specific dollar amounts or share counts. Two points matter most. Market value uses the period-end share price. The top two holdings are both optical module stocks.\n\n## How It Works\nMarket value is the number of shares times the share price. When the share price rises, market value rises too, even if the number of shares stays the same. So a higher market value may only mean the price went up. It does not mean you actually bought more.\n\n## In Short\nA bigger number does not mean more buying. To tell whether someone added to a position, check whether the share count went up. Market value alone is not enough."
   }
+ },
+ {
+  "link": "/ChokepointPT/status/2120385486707396707",
+  "text": "这类月入两三万美金的AI活，往往站在别人的GPU和API上。应用层能赚钱。可每一笔token账单，最先付的是英伟达和云厂商。",
+  "src": "国内的发小都喊我去中国发展，\n说中国研究AI多么多么牛逼，\n我就是知道中国AI牛逼我才不去的啊。\n我在日本会一点AI技术就能一个月赚两三万美金，\n公司同事都很崇拜的看着我。\n我要是去中国就我那点三脚猫技术算个屁啊。",
+  "src_link": "/iam678/status/2120381998409867317",
+  "at": 1795846625.696116,
+  "why": "daily pick, 2197 views",
+  "n": 55,
+  "cover": "",
+  "page_url": "",
+  "title": "月入两三万美金的AI活，每笔token账单先到了英伟达和云厂商手里",
+  "deck": "做AI应用的人能赚钱，但底层算力的账单先流向卖算力的公司，这一点很多人没想到。",
+  "tag": "商业",
+  "body": "## 发生了什么\n\n有个在日本工作的人说，自己会一点AI技术，一个月就能赚两三万美金，同事都很佩服他。国内的朋友劝他回中国发展，他却说，正因为知道中国的AI很厉害，他那点三脚猫功夫放过去根本不算什么，所以不去。\n\n## 关键数字\n\n- 两三万美金：他说的月收入。\n- 每一笔token：AI处理文字时的计费单位，用多少就算多少钱。\n\n## 怎么做到的\n\n这类活大多站在别人的GPU和API上。GPU是跑AI的显卡，API是别人开放的调用入口。你不用自己买显卡，调一次别人的接口，就按token付费。\n\n## 能用来干什么\n\n把AI做成工具、服务或方案，卖给需要的人。应用层确实能赚钱。\n\n## 简单说\n\n应用层能赚钱，可每一笔token账单，最先收到钱的是英伟达和云厂商。赚钱的人站在别人的地基上，钱却先流向了卖算力的公司。",
+  "en_tries": 1
  }
 ]
